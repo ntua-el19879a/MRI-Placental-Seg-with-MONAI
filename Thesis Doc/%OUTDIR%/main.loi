@@ -1,0 +1,25 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {illustration}{\numberline {2.1}{\ignorespaces Αριστερά: ενδεικτική δισδιάστατη τομή (\foreignlanguage {english}{slice}) \foreignlanguage {english}{MRI} με την επισήμανση (πράσινο) του πλακούντα. Δεξιά: τρισδιάστατη αναπαράσταση της αντίστοιχης μάσκας τμηματοποίησης (πράσινο) και της θέσης της τομής στον όγκο.}}{18}{illustration.caption.9}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {illustration}{\numberline {4.1}{\ignorespaces Δομή αρχιτεκτονικής \foreignlanguage {english}{U-net} \cite {ronneberger2015unet}}}{28}{illustration.caption.10}%
+\contentsline {illustration}{\numberline {4.2}{\ignorespaces Μηχανισμός \foreignlanguage {english}{residual connection} στην αρχιτεκτονική \foreignlanguage {english}{ResNet} \cite {he2016resnet}}}{29}{illustration.caption.11}%
+\contentsline {illustration}{\numberline {4.3}{\ignorespaces Προτεινόμενος σχεδιασμός του \foreignlanguage {english}{attention gate} \cite {oktay2018attentionunet}}}{30}{illustration.caption.12}%
+\contentsline {illustration}{\numberline {4.4}{\ignorespaces Αριστερά: \foreignlanguage {english}{Swin} με ιεραρχικά \foreignlanguage {english}{stages} (πολλαπλές κλίμακες μέσω \foreignlanguage {english}{patch merging}). Δεξιά: \foreignlanguage {english}{ViT} χωρίς ιεραρχία, με σταθερή ανάλυση \foreignlanguage {english}{tokens} σε όλο τον \foreignlanguage {english}{encoder} \cite {larsen2022deeplearningapproachusing}.}}{30}{illustration.caption.13}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {illustration}{\numberline {6.1}{\ignorespaces Καμπύλες εκπαίδευσης: \foreignlanguage {english}{Validation Dice} (πάνω) και \foreignlanguage {english}{training/validation loss} (κάτω) για \foreignlanguage {english}{Attention U-Net}, \foreignlanguage {english}{DynUNet}, \foreignlanguage {english}{SwinUNETR Heavier} και \foreignlanguage {english}{SwinUNETR Lighter}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \foreignlanguage {english}{epoch} του καλύτερου \foreignlanguage {english}{Dice}.}}{42}{illustration.caption.16}%
+\contentsline {illustration}{\numberline {6.2}{\ignorespaces Καμπύλες εκπαίδευσης: \foreignlanguage {english}{Validation Dice} (πάνω) και \foreignlanguage {english}{training/validation loss} (κάτω) για \foreignlanguage {english}{SegResNet Lighter}, \foreignlanguage {english}{SegResNet Heavier} και \foreignlanguage {english}{U-Net}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \foreignlanguage {english}{epoch} του καλύτερου \foreignlanguage {english}{Dice}.}}{43}{illustration.caption.17}%
+\contentsline {illustration}{\numberline {6.3}{\ignorespaces Καμπύλες εκπαίδευσης: \foreignlanguage {english}{Validation Dice} (πάνω) και \foreignlanguage {english}{training/validation loss} (κάτω) για \foreignlanguage {english}{UNETR}, \foreignlanguage {english}{SegMamba Heavier} και \foreignlanguage {english}{SegMamba Lighter}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \foreignlanguage {english}{epoch} του καλύτερου \foreignlanguage {english}{Dice}.}}{43}{illustration.caption.18}%
+\contentsline {illustration}{\numberline {6.4}{\ignorespaces \foreignlanguage {english}{Attention U-Net}}}{45}{illustration.caption.19}%
+\contentsline {illustration}{\numberline {6.5}{\ignorespaces \foreignlanguage {english}{DynUNet}}}{46}{illustration.caption.20}%
+\contentsline {illustration}{\numberline {6.6}{\ignorespaces \foreignlanguage {english}{SwinUNETR Heavier}}}{46}{illustration.caption.21}%
+\contentsline {illustration}{\numberline {6.7}{\ignorespaces \foreignlanguage {english}{SwinUNETR Lighter}}}{46}{illustration.caption.22}%
+\contentsline {illustration}{\numberline {6.8}{\ignorespaces \foreignlanguage {english}{SegResNet Lighter (No of Filters = 32)}}}{47}{illustration.caption.23}%
+\contentsline {illustration}{\numberline {6.9}{\ignorespaces \foreignlanguage {english}{SegResNet Heavier (No of Filters = 64)}}}{47}{illustration.caption.24}%
+\contentsline {illustration}{\numberline {6.10}{\ignorespaces \foreignlanguage {english}{U-Net}}}{47}{illustration.caption.25}%
+\contentsline {illustration}{\numberline {6.11}{\ignorespaces \foreignlanguage {english}{UNETR}}}{48}{illustration.caption.26}%
+\contentsline {illustration}{\numberline {6.12}{\ignorespaces \foreignlanguage {english}{SegMamba Heavier (5 layers)}}}{48}{illustration.caption.27}%
+\contentsline {illustration}{\numberline {6.13}{\ignorespaces \foreignlanguage {english}{SegMamba Lighter (4 layers)}}}{48}{illustration.caption.28}%
+\addvspace {10\p@ }

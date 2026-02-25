@@ -38,6 +38,8 @@
 % Define macros to set thesis variables
 \def\@supervisor{}              
 \def\supervisor#1{\gdef\@supervisor{#1}}
+\def\@cosupervisor{}
+\def\cosupervisor#1{\gdef\@cosupervisor{#1}}
 \def\@firstExaminer{}               
 \def\firstExaminer#1{\gdef\@firstExaminer{#1}}
 \def\@secondExaminer{}               
@@ -45,7 +47,8 @@
 \def\@subtitle{}                    
 \def\subtitle#1{\gdef\@subtitle{#1}}
 \def\@translator{}              
-\def\translator#1{\gdef\@translator{#1}}
+\def\@footertranslator{}
+\def\translator#1{\gdef\@translator{#1}\gdef\@footertranslator{#1}}
 \def\@institution{}             
 \def\institution#1{\gdef\@institution{#1}}
 \def\@department{}              
@@ -94,8 +97,12 @@
 \def\authorNameEN#1{\gdef\@authorNameEN{#1}}
 \def\@supervisorTitle{}   
 \def\supervisorTitle#1{\gdef\@supervisorTitle{#1}}
+\def\@cosupervisorTitle{}
+\def\cosupervisorTitle#1{\gdef\@cosupervisorTitle{#1}}
 \def\@supervisorMaleFemale{}
 \def\supervisorMaleFemale#1{\gdef\@supervisorMaleFemale{#1}}
+\def\@cosupervisorMaleFemale{}
+\def\cosupervisorMaleFemale#1{\gdef\@cosupervisorMaleFemale{#1}}
 \def\@thesisPlaceDate{}
 \def\thesisPlaceDate#1{\gdef\@thesisPlaceDate{#1}}
 \def\@ackPlaceDate{}
@@ -451,9 +458,25 @@
         \begin{flushleft}
             \normalsize
             \begin{tabbing}
+                \ifx\@cosupervisor\@empty
+                    \large \textcolor{\colouredtextcolor}%
+                        {\textbf{\@supervisorMaleFemale :}} \=\kill
+                \else
+                    \large \textcolor{\colouredtextcolor}%
+                        {\textbf{\@cosupervisorMaleFemale :}} \=\kill
+                \fi
                 \large \textcolor{\colouredtextcolor}%
-                    {\textbf{\@supervisorMaleFemale :}} \=\@supervisor\\
+                    {\textbf{\@supervisorMaleFemale :}} \>\@supervisor\\
                     \>\@supervisorTitle
+                    \ifx\@cosupervisor\@empty
+                        % do nothing
+												\\
+                    \else
+                        \\[0.5\baselineskip]
+                        \large \textcolor{\colouredtextcolor}%
+                            {\textbf{\@cosupervisorMaleFemale :}} \>\@cosupervisor\\
+                        \>\@cosupervisorTitle
+                    \fi
             \end{tabbing}
         \end{flushleft}
         \vspace{0.2cm}
@@ -524,9 +547,24 @@
                 \vfill
                 %
                 \begin{tabbing}
+                    \ifx\@cosupervisor\@empty
+                        \large \textcolor{\colouredtextcolor}%
+                            {\textbf{\@supervisorMaleFemale :}} \=\kill
+                    \else
+                        \large \textcolor{\colouredtextcolor}%
+                            {\textbf{\@cosupervisorMaleFemale :}} \=\kill
+                    \fi
                     \large \textcolor{\colouredtextcolor}%
-                    {\textbf{\@supervisorMaleFemale :}} \=\@supervisor\\
+                    {\textbf{\@supervisorMaleFemale :}} \>\@supervisor\\
                     \>\@supervisorTitle
+                    \ifx\@cosupervisor\@empty
+                        % do nothing
+                    \else
+                        \\[0.5\baselineskip]
+                        \large \textcolor{\colouredtextcolor}%
+                            {\textbf{\@cosupervisorMaleFemale :}} \>\@cosupervisor\\
+                        \>\@cosupervisorTitle
+                    \fi
                 \end{tabbing}
                 \vspace{5mm}
                 \vfill
@@ -646,7 +684,7 @@
 		\translator{Διπλωματικη Εργασια}
 		\institution{Εθνικο Μετσοβιο Πολυτεχνειο}
 		\department{Σχολη Ηλεκτρολογων Μηχανικων και Μηχανικων Υπολογιστων}
-		\division{Τομεας}
+		\division{Τομεας Συστηματων Μεταδοσης Πληροφοριας και Τεχνολογιας Υλικων}
 		\other{}	
 	\else
 		% More Names
@@ -912,18 +950,23 @@
 		\@declarationDate%
 } 
 
-\middletitleback{%
-    \vspace{1cm} 
-    \textcolor{\colouredtextcolor}{\en{Copyright} \en{\copyright }}\en{ -- All rights reserved.} Με την επιφύλαξη παντός δικαιώματος.\\ %
-	\ifx\@authorNameGR\@empty
-	\else
-        \@authorNameGR,
-	\fi
-	\ifx\@authorNameEN\@empty
-	\else
-        \en{\@authorNameEN},
-	\fi 
-    \@copyrightYear. 
+\lowertitleback{%
+\vspace{1cm} 
+	\signaturestable
+	\\
+	Διπλωματούχος Ηλεκτρολόγος Μηχανικός και Μηχανικός Υπολογιστών Ε.Μ.Π.
+	\\
+	\\
+  \textcolor{\colouredtextcolor}{\en{Copyright} \en{\copyright }} Γρηγόριος Τσένος, 2026.\\ %
+	% \ifx\@authorNameGR\@empty
+	% \else
+  %       \@authorNameGR,
+	% \fi
+	% \ifx\@authorNameEN\@empty
+	% \else
+  %       \en{\@authorNameEN},
+	% \fi 
+  %   \@copyrightYear. 
     \\[12pt]
     Απαγορεύεται η αντιγραφή, αποθήκευση και διανομή της παρούσας εργασίας, εξ
     ολοκλήρου ή τμήματος αυτής, για εμπορικό σκοπό.  Επιτρέπεται η ανατύπωση,
@@ -931,15 +974,7 @@
     ερευνητικής φύσης, υπό την προϋπόθεση να αναφέρεται η πηγή προέλευσης και να
     διατηρείται το παρόν μήνυμα.  
     \\[12pt]
-    Το περιεχόμενο αυτής της εργασίας δεν απηχεί απαραίτητα τις απόψεις του Τμήματος, του Επιβλέποντα, ή της επιτροπής που την ενέκρινε. 
-    \\[20pt]
-    \textcolor{\colouredtextcolor}{\textbf{ΔΗΛΩΣΗ ΜΗ ΛΟΓΟΚΛΟΠΗΣ ΚΑΙ ΑΝΑΛΗΨΗΣ ΠΡΟΣΩΠΙΚΗΣ ΕΥΘΥΝΗΣ}}
-    \\
-	\declaration
-    \\[24pt]
-    \textit{\signature} 
-    \\[40pt]
-    \signaturestable
+    Οι απόψεις και τα συμπεράσματα που περιέχονται σε αυτό το έγγραφο εκφράζουν τον συγγραφέα και δεν πρέπει να ερμηνευθεί ότι αντιπροσωπεύουν τις επίσημες θέσεις του Εθνικού Μετσόβιου Πολυτεχνείου.
 }
 
 
@@ -1012,7 +1047,7 @@
 	\fancyfoot[LE,RO]{%
 	\tikz\node[fill=\@chaptercolor] (0,0){\color{white}\textbf{\thepage}};%
     }
-\fi       	
+\fi       	     	
 
 \fancyhead[RO]{\footnotesize{{\color{\@chaptercolor}\rightmark}}}
 \fancyhead[LE]{\footnotesize{{\color{\@chaptercolor}\leftmark}}}
@@ -1154,6 +1189,25 @@
     \addtocontents{toc}{\bigskip}%
 	\addcontentsline{toc}{chapter}{Βιβλιογραφία}%
 }
+% \let\oldbibliography\bibliography
+% \renewcommand\bibliography[1]{%
+% 	\cleardoublepage%
+%     \ifhyperrefoption%
+%         \bookmarksetup{startatroot}%
+% 	\else%
+% 		% do nothing
+% 	\fi%
+% 	{%
+% 		\renewcommand{\bibname}{\foreignlanguage{greek}{Βιβλιογραφία}}%
+% 		\renewcommand{\refname}{\foreignlanguage{greek}{Βιβλιογραφια}}%
+% 		\oldbibliography{#1}%
+% 	}%
+% 		\begingroup
+% 			\selectlanguage{greek}
+% 			\addtocontents{toc}{\bigskip}%
+% 			\addcontentsline{toc}{chapter}{Βιβλιογραφια}%
+% 		\endgroup
+% 	}
 
 %% Dedication
 \newcommand{\thesisDedication}[1]{%

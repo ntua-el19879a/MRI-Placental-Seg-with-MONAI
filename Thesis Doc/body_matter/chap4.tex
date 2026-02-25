@@ -12,14 +12,14 @@
 \label{sec:monai_framework}
 
 Το \en{MONAI} (\en{Medical Open Network for AI}) είναι ένα ανοικτού κώδικα,
-\en{PyTorch}-based πλαίσιο που στοχεύει στη διευκόλυνση ανάπτυξης και
+\en{PyTorch-based} πλαίσιο που στοχεύει στη διευκόλυνση ανάπτυξης και
 αξιολόγησης μοντέλων Βαθιάς Μάθησης για εφαρμογές υγείας, με έμφαση στην
 ιατρική απεικόνιση \cite{cardoso2022monai}. Παρέχει:
 \begin{itemize}
   \item \textbf{Μετασχηματισμούς} (\en{transforms}) για \en{3D} δεδομένα
         (φόρτωση, \en{resampling}, κανονικοποίηση, \en{augmentation}).
   \item \textbf{Έτοιμες αρχιτεκτονικές} τμηματοποίησης και
-        \en{building blocks} (συνελικτικά/υπολειμματικά blocks,
+        \en{building blocks} (συνελικτικά/υπολειμματικά \en{blocks},
         κανονικοποιήσεις, \en{upsampling}).
   \item \textbf{Απώλειες και μετρικές} (π.\,χ.\ \en{Dice-based losses} και
         \en{Dice/IoU} μετρικές) και τυποποιημένες ροές εκπαίδευσης.
@@ -66,11 +66,11 @@
   \item Ο \textbf{αποκωδικοποιητής} (\en{decoder}) ανακτά την ανάλυση (\en{upsampling}) και συνδυάζει πληροφορία υψηλής ανάλυσης απο τον \en{encoder}, ώστε να βελτιώνει την ακρίβεια εντοπισμού ορίων. 
 \end{itemize}
 
-\begin{figure}[!ht] \centering
+\begin{Illustration}[!ht] \centering
 \includegraphics[width=0.7\linewidth]{figures/u-net-architecture.png}
- \caption{Δομή αρχιτεκτονικής \en{U-net}}
+ \caption{Δομή αρχιτεκτονικής \en{U-net} \cite{ronneberger2015unet}}
 \label{figure4.1}
-\end{figure}
+\end{Illustration}
 
 Για ογκομετρικά δεδομένα, η λογική επεκτείνεται σε \en{3D U-Net} με \en{3D} συνελίξεις \cite{cicek20163dunet}. 
 Τα \en{skip connections} είναι κρίσιμα για ακριβή \en{localization}, καθώς μετριάζουν την απώλεια 
@@ -82,7 +82,7 @@
 \section{\en{DynUNet}}
 \label{sec:dynunet}
 
-Το \en{DynUNet} (στη \en{MONAI} υλοποίηση) είναι παραλλαγή \en{3D UNet} που επιτρέπει \textbf{δυναμική} προσαρμογή της τοπολογίας (στάδια, \en{strides}, μεγέθη μυρήνων) με βάση τις διαστάσεις/ανά\-λυση εισόδου 
+Το \en{DynUNet} (στη \en{MONAI} υλοποίηση) είναι παραλλαγή \en{3D UNet} που επιτρέπει \textbf{δυναμική} προσαρμογή της τοπολογίας (στάδια, \en{strides}, μεγέθη πυρήνων) με βάση τις διαστάσεις/ανά\-λυση εισόδου 
 και το \en{patch size}.
 Η φιλοσοφία συνδέεται με το \en{nnU-Net}, όπου έδειξε ότι συστηματικές επιλογές προεπεξεργασίας και ``εύλογες'' αρχιτεκτονικές αποφάσεις μπορούν να δώσουν ισχυρά αποτελέσματα σε πολλά \en{datasets}
 \cite{isensee2021nnunet}.
@@ -103,11 +103,11 @@
 και με \en{\-autoencoder regularization}. 
 
 
-\begin{figure}[!ht] \centering
+\begin{Illustration}[!ht] \centering
 \includegraphics[width=0.4\linewidth]{./figures/Res connection.png}
  \caption{Μηχανισμός \en{residual connection} στην αρχιτεκτονική \en{ResNet} \cite{he2016resnet}}
 \label{figure4.2}
-\end{figure}
+\end{Illustration}
 
 \paragraph{Γιατί υπολείμματα.}
 Οι υπολειμματικές συνδέσεις (\ref{figure4.2}) διευκολύνουν τη ροή κλίσεων και επιτρέπουν 
@@ -122,11 +122,18 @@
 να ενισχύει περιοχές σχετικές με το \en{ROI} και να καταστέλλει άσχετο υπόβαθρο \cite{oktay2018attentionunet}. Το \en{gate} συνδυάζει πληροφορία απο ρηχότερα επίπεδα (λεπτομέρεια) και βαθύτερα επίπεδα (συμφραζόμενο), 
 υπολογίζοντας βάρη εστίασης.
 
-\begin{figure}[!ht] \centering
-\includegraphics[width=0.6\linewidth]{./figures/AttUNET attention gate.png}
- \caption{Προτεινόμενος σχεδιασμός του \en{attention gate}}
-\label{figure4.3}
-\end{figure}
+% \begin{figure}[!ht] \centering
+% \includegraphics[width=0.6\linewidth]{./figures/AttUNET attention gate.png}
+%  \caption{Προτεινόμενος σχεδιασμός του \en{attention gate} \cite{oktay2018attentionunet}}
+% \label{figure4.3}
+% \end{figure}
+
+\begin{Illustration}[!h]
+  \centering
+  \includegraphics[width=0.6\linewidth]{./figures/AttUNET attention gate.png}
+  \caption{Προτεινόμενος σχεδιασμός του \en{attention gate} \cite{oktay2018attentionunet}}
+  \label{figure4.3}
+\end{Illustration}
 
 \paragraph{Πότε βοηθά.} 
 Η προσοχή είναι ιδιαίτερα χρήσιμη όταν το \en{ROI} είναι μικρό, υπάρχει ισχυρή ανισορροπία κλάσεων ή όταν δομές έχουν παρόμοια ένταση με το υπόβαθρο.
@@ -139,7 +146,7 @@
 \textbf{\en{3D patches}} που προβάλλονται σε \en{tokens}, ενώ το \en{self-attention} επιτρέπει άμεση μοντελοποίηση μακρινών συσχετίσεων.
 
 \paragraph{Σχόλιο κόστους.}
-Το πλεονέκτημα του \en{global context} συνοδεύεται απο αυξημένο κόστος μνήμης/χρόνου, το οποίο εξαρτάται έντονα από το \en{patch grid}. Για αυτό, η επιλογή \en{patch size} και ο τρόπος inference (π.χ. \en{sliding-window}) είναι κρίσιμα πρακτικά σημεία \cite{hatamizadeh2022unetr}.
+Το πλεονέκτημα του \en{global context} συνοδεύεται απο αυξημένο κόστος μνήμης/χρόνου, το οποίο εξαρτάται έντονα από το \en{patch grid}. Για αυτό, η επιλογή \en{patch size} και ο τρόπος \en{inference} (π.χ. \en{sliding-window}) είναι κρίσιμα πρακτικά σημεία \cite{hatamizadeh2022unetr}.
 
 \section{\en{SwinUNETR}: ιεραρχικός \en{Swin encoder}}
 \label{sec:swinunetr}
@@ -153,12 +160,12 @@
 Σε ένα κλασικό \en{ViT} ο αριθμός και η διάταξη των \en{tokens} παραμένουν σταθερά σε όλο τον \en{encoder} (μονο-κλίμακη αναπαράσταση). 
 Ο \en{Swin} χωρίζεται σε διακριτά \en{stages} και εφαρμόζει \en{patch merging}, 
 μειώνοντας προοδευτικά τη χωρική ανάλυση και δημιουργώντας πυραμίδα χαρακτηριστικών πολλαπλών κλιμάκων (\ref{figure4.4}).
-\begin{figure}[!ht] \centering
+\begin{Illustration}[!ht] \centering
 \includegraphics[width=0.4\linewidth]{./figures/swin vs vit.png}
  \caption{Αριστερά: \en{Swin} με ιεραρχικά \en{stages} (πολλαπλές κλίμακες μέσω \en{patch merging}).\\
- Δεξιά: \en{ViT} χωρίς ιεραρχία, με σταθερή ανάλυση \en{tokens} σε όλο τον \en{encoder}.}
+ Δεξιά: \en{ViT} χωρίς ιεραρχία, με σταθερή ανάλυση \en{tokens} σε όλο τον \en{encoder} \cite{larsen2022deeplearningapproachusing}.}
 \label{figure4.4}
-\end{figure}
+\end{Illustration}
 \paragraph{Γιατί ταιριάζει σε \en{3D}.}
 Η τοπική προσοχή μειώνει το υπολογιστικό κόστος σε μεγάλους όγκους, ενώ η ιεραρχία (μέσω \en{patch merging}) μειώνει προοδευτικά το πλήθος \en{tokens}. 
 Τα ενδιάμεσα επίπεδα πολλαπλών κλιμάκων τροφοδοτούν έναν \en{U-shaped decoder} με \en{skip connections}, διατηρώντας λεπτομέρεια και χωρική ακρίβεια.
@@ -167,7 +174,7 @@
 \label{sec:segmamba}
 
 Το \en{SegMamba} προτείνει μια \en{3D} αρχιτεκτονική τμηματοποίησης που
-ενσωματώνει \en{Mamba}-βασισμένα \en{SSM} blocks για μοντελοποίηση
+ενσωματώνει \en{Mamba}-βασισμένα \en{SSM blocks} για μοντελοποίηση
 μακρινών εξαρτήσεων με ευνοϊκή κλιμάκωση σε σχέση με πλήρες
 \en{self-attention} \cite{xing2024segmamba}. Ο μηχανισμός \en{Mamba}
 εισάγει \en{selective state spaces}, επιτρέποντας \en{content-dependent}

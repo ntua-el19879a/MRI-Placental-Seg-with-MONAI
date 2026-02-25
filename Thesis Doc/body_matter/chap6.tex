@@ -87,8 +87,8 @@
 \en{Lighter} να φτάνει \en{Val Loss}$=0.1838$ στο \en{epoch} 108.
 Οι τιμές αυτές απέχουν κατά περίπου $0.01$ σε \en{Dice} από την κορυφή.
 
-Αξίζει να σχολιάσουμε το \en{U-Net} (ο πρωτοπόρος του αντικειμένου) απέδωσε αρκετά καλά με 
-\en{Dice Score}$= 0.823$, συμφωνόντας με την τυπική απόδοση σε σχετικές εργασίες όπως θα σχολιαστεί στη συνέχεια.
+Αξίζει να σχολιαστεί το \en{U-Net} (πρωτοποριακό μοντέλο του αντικειμένου) απέδωσε πολύ καλά με 
+\en{Dice Score}$= 0.823$, χωρίς να απέχει ιδιαιτέρως απο την τυπική απόδοση σε σχετικές εργασίες όπως θα σχολιαστεί στη συνέχεια (\ref{sec:results_literature_compare}).
 
 Τέλος, οι παραλλαγές χωρητικότητας (\en{SegResNet Heavier} έναντι \en{SegResNet Lighter},
 \en{SegMamba Heavier} έναντι \en{SegMamba Lighter} και \en{SwinUNETR Heavier}
@@ -99,7 +99,7 @@
 
 \section{Καμπύλες εκπαίδευσης και σταθερότητα σύγκλισης}
 \label{sec:results_curves}
-Στα σχήματα \ref{fig:graphs1}, \ref{fig:graphs2} και \ref{fig:graphs3} παρουσιάζονται οι καμπύλες 
+Στις εικόνες \ref{fig:graphs1}, \ref{fig:graphs2} και \ref{fig:graphs3} παρουσιάζονται οι καμπύλες 
 εκπαίδευσης για κάθε αρχιτεκτονική. Σε κάθε περίπτωση, 
 πρώτη καμπύλη παρουσιάζει τη μετρική \en{Dice} και η δεύτερη τις απώλειες \en{training} και 
 \en{validation} κατά τη διάρκεια των \en{epochs}.
@@ -110,7 +110,7 @@
 συγκλίνοντας σχετικά νωρίς, ακολουθούμενη απο σταδιακή βελτίωση μέχρι το τέλος της εκπαίδευσης. 
 Αυτό υποδηλώνει ότι το μοντέλο μαθαίνει γρήγορα τη χονδρική μορφολογία του πλακούντα, ενώ οι επιπλέον εποχές συμβάλλουν κυρίως σε λεπτότερη προσαρμογή (όρια, μικρές ασυνέχειες, μείωση \en{false positives}).
 
-\begin{figure}
+\begin{Illustration}
   \centering
   \begin{subfigure}[b]{0.45\linewidth}
     \centering
@@ -137,9 +137,9 @@
   \end{subfigure}
   \caption{Καμπύλες εκπαίδευσης: \en{Validation Dice} (πάνω) και \en{training/validation loss} (κάτω) για \en{Attention U-Net}, \en{DynUNet}, \en{SwinUNETR Heavier} και \en{SwinUNETR Lighter}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \en{epoch} του καλύτερου \en{Dice}.}
   \label{fig:graphs1}
-\end{figure}  
+\end{Illustration}  
 
-\begin{figure}
+\begin{Illustration}
   \centering
   \begin{subfigure}[b]{0.45\linewidth}
     \centering\includegraphics[width=\linewidth]{figures/history_segresLight.png}
@@ -157,10 +157,10 @@
   \end{subfigure}
   \caption{Καμπύλες εκπαίδευσης: \en{Validation Dice} (πάνω) και \en{training/validation loss} (κάτω) για \en{SegResNet Lighter}, \en{SegResNet Heavier} και \en{U-Net}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \en{epoch} του καλύτερου \en{Dice}.}
   \label{fig:graphs2}
-\end{figure}  
+\end{Illustration}  
 
   
-\begin{figure}
+\begin{Illustration}
   \centering
   \begin{subfigure}[b]{0.45\textwidth}
     \centering\includegraphics[width=\textwidth]{figures/history_UNETR.png}
@@ -178,19 +178,19 @@
   \end{subfigure}
   \caption{Καμπύλες εκπαίδευσης: \en{Validation Dice} (πάνω) και \en{training/validation loss} (κάτω) για \en{UNETR}, \en{SegMamba Heavier} και \en{SegMamba Lighter}. Το αστέρι και η κατακόρυφη διακεκομμένη γραμμή δείχνουν το \en{epoch} του καλύτερου \en{Dice}.}
   \label{fig:graphs3}
-\end{figure}  
+\end{Illustration}  
 
 \paragraph{Συγκριτική ερμηνεία καμπυλών.}
-Όλες οι προσωμοιώσεις εμφανίζουν απότομη άνοδο του
+Όλες οι εκτελέσεις εμφανίζουν απότομη άνοδο του
 \en{validation Dice} στα πρώτα $\sim$10--20 \en{epochs} και στη συνέχεια
 σταθεροποίηση (\en{plateau}). Επίσης, όλες οι καμπύλες είναι σχεδόν πανομοιότυπες σε μορφή, 
-κάτι που αναμένοταν δεδομένου ότι το πειραματικό πλαίσιο ήταν κοινό για όλες τις προσωμοιώσεις. 
-Ομοίως, οι παραλλαγές \en{SegMamba} συγκλίνουν γρήγορα σε υψηλές τιμές \en{Dice} και
-παραμένουν σταθερά στην κορυφή.
+κάτι που αναμενόταν δεδομένου ότι το πειραματικό πλαίσιο ήταν κοινό για όλες τις εκτελέσεις. 
+Ομοίως, οι παραλλαγές \en{SegMamba} συγκλίνουν γρήγορα σε υψηλές τιμές \en{Dice} 
+παραμένοντας σταθερά.
 
 \paragraph{\en{Transformer-based} συμπεριφορά.}
 Το \en{UNETR} λειτουργεί ως \en{outlier}, επιτυγχάνοντας χαμηλότερο \en{best Dice},
-γεγονός που συμφωνεί με τη συνολική του υστέρηση στον Πίνακα~\ref{tab:main_results}.
+γεγονός που συμφωνεί με τη συνολική του υστέρηση στον Πίνακα~\ref{tab:main_results}, και στην Εικόνα~\ref{fig:graphs3}.
 Αντίθετα, και οι δύο διαμορφώσεις \en{SwinUNETR Heavier/Lighter} παρουσιάζουν
 πιο ομαλή και σταδιακή βελτίωση και, ενώ δεν ξεπερνούν την κορυφή
 (\en{SegResNet}/\en{SegMamba}), αποδίδουν καλύτερα απο το απλό \en{UNETR}. 
@@ -252,12 +252,7 @@
 και σε λεπτές περιοχές (ελαφρά υπο- ή υπερ-τμηματοποίηση). Η \en{Attention U-Net}
 και το \en{DynUNet} δείχνουν πιο σταθερή συμπεριφορά από το βασικό \en{U-Net},
 συμβατό με το μικρό αλλά μετρήσιμο κέρδος στις μετρικές
-(\en{Dice}$\approx 0.851$ έναντι $0.823$). Παράλληλα, το \en{U-Net} παρότι
-παρουσιάζει αποδεκτή επικάλυψη, εμφανίζει μεγαλύτερο \en{validation loss}
-(Πίνακας \ref{tab:main_results}), κάτι που είναι ενδεικτικό ότι το \en{loss}
-(\en{Dice + CE}) είναι πιο ευαίσθητο σε αβεβαιότητα/λάθη κοντά στα όρια,
-ακόμη και όταν η τελική δυαδική μάσκα (μετά το \en{thresholding}) είναι οπτικά
-ικανοποιητική.
+(\en{Dice}$\approx 0.851$ έναντι $0.823$).
 
 \paragraph{\en{Transformer-based} μοντέλα.}
 Τα \en{SwinUNETR Heavier/Lighter} παράγουν συνεπείς προβλέψεις με καλό
@@ -315,15 +310,15 @@
 
 
 \begin{Illustration}[!h]
-  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SegResHeavy.png}
-  \caption{\en{SegResNet Heavier (No of Filters = 64)}}
-  \label{ill4}
-\end{Illustration}
-
-\begin{Illustration}[!h]
   \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SegResLight.png}
   \caption{\en{SegResNet Lighter (No of Filters = 32)}}
   \label{ill5}
+\end{Illustration}
+
+\begin{Illustration}[!h]
+  \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SegResHeavy.png}
+  \caption{\en{SegResNet Heavier (No of Filters = 64)}}
+  \label{ill4}
 \end{Illustration}
 
 \begin{Illustration}[!h]
@@ -434,7 +429,7 @@
 Η παραπάνω σύγκριση είναι \textbf{ενδεικτική} και όχι αυστηρά αντικειμενική
 , επειδή τα πειράματα δεν έχουν εκτελεστεί σε κοινό σύνολο
 δεδομένων ή ενιαίο πρωτόκολλο. 
-Παρά τα παραπάνω, οι τιμές επικάλυψης της παρούσας εργασίας
+Παρά τα παραπάνω, οι καλύτερες τιμές επικάλυψης της παρούσας εργασίας
 (\en{Dice}$=0.8606$, \en{IoU}$=0.7566$) κινούνται στο ίδιο εύρος με τη
 σύγχρονη βιβλιογραφία για τμηματοποίηση πλακούντα σε \en{MRI}, κάτι που
 υποστηρίζει τη συνολική εγκυρότητα της πειραματικής μεθοδολογίας.
@@ -457,7 +452,7 @@
 (περίπου $0.002$--$0.003$). Το \en{SwinUNETR Heavier/Lighter}
 (\en{Dice}$=0.8497/0.8490$) είναι
 ανταγωνιστικό, αλλά παραμένει χαμηλότερα από την κορυφή κατά περίπου $0.01$ σε
-\en{Dice}, αλλά κάτα $0.02$ παραπάνω απο το \en{base UNet}, 
+\en{Dice}, αλλά κατά περίπου $0.02$ υψηλότερα από το \en{base U-Net}, 
 ενώ το \en{UNETR} αποτελεί σαφή \en{outlier} με αισθητά χαμηλότερη
 επικάλυψη (\en{Dice}$=0.772$). Η μικρή απόσταση εντός της κορυφής υποδηλώνει
 ότι, για το συγκεκριμένο σύνολο δεδομένων και πρωτόκολλο, η επίδοση τείνει να
@@ -466,9 +461,16 @@
 \en{patches} ή ποιότητας επισημειώσεων, παρά από ριζικά διαφορετική
 αρχιτεκτονική.
 
+\paragraph{Παρουσίαση \en{worst-case scenario}.}
+Ως \en{worst-case scenario} στο παρόν πρωτόκολλο μπορεί να θεωρηθεί η χαμηλότερη
+καταγεγραμμένη επίδοση, δηλαδή το \en{UNETR} (\en{Dice}$=0.772$, \en{IoU}$=0.6345$).
+Στα ποιοτικά αποτελέσματα (βλ. Σχ.~\ref{ill1}--\ref{ill10}) έχουμε υπο-τμηματοποίηση του πλακούντα,
+ασυνέχειες στη μάσκα και διάσπαρτα \en{false positives}, με αποτέλεσμα
+υποβάθμιση τόσο της επικάλυψης όσο και της αξιοπιστίας των ορίων.
+
 \paragraph{Ερμηνεία υπεροχής \en{CNN}/\en{SSM} προσεγγίσεων.}
-Τα αποτελέσματα υποδεικνύουν ότι οι \en{CNN}-βασισμένες λύσεις
-(\en{SegResNet}, \en{DynUNet}, \en{Attention U-Net}) και τα \en{SSM-based}
+Αντιθέτως, τα αποτελέσματα υποδεικνύουν ότι τα \en{CNN-based} 
+(\en{SegResNet}, \en{DynUNet}, \en{Attention U-Net}) και \en{SSM-based}
 μοντέλα (\en{SegMamba}) είναι ιδιαίτερα κατάλληλα για τμηματοποίηση πλακούντα
 σε \en{3D MRI}. Μια εύλογη ερμηνεία είναι ότι το πρόβλημα κυριαρχείται από
 τοπική μορφολογία και συνέπεια ορίων, όπου ο \en{inductive bias} των συνελίξεων και 
@@ -486,7 +488,7 @@
 προεκπαίδευση, ώστε να αποδώσουν ανταγωνιστικά σε ιατρική τμηματοποίηση.
 Αντίθετα, το \en{SwinUNETR} εμφανίζει πιο σταθερή και καλύτερη συμπεριφορά,
 πιθανώς επειδή ενσωματώνει ισχυρότερη τοπικότητα (ιεραρχικά \en{windows} και
-\en{patch merging}), κάτι που λειτουργεί ως πιο κατάλληλος \en{prior} για
+\en{patch merging}), κάτι που λειτουργεί πιο κατάλληλα για
 \en{3D} δεδομένα με περιορισμένο αριθμό περιπτώσεων. Οπτικά, αυτό αποτυπώνεται
 σε πιο ``καθαρά'' όρια και σε περιορισμό των σποραδικών ψευδοθετικών περιοχών,
 σε σύγκριση με το \en{UNETR}. Επιπλέον, οι δύο διαμορφώσεις
@@ -521,17 +523,17 @@
 Συνεπώς, το \en{SwinUNETR} αποτελεί ισχυρή επιλογή απο πλευράς απόδοσης, αλλά 
 έχοντας το υπολογιστικό κόστος υπόψιν, οι εναλλακτικές καθίστανται προτιμότερες.
 
-\subsection{Ενδεικτικοί χρόνοι ολοκλήρωσης εκτέλεσης \en{notebooks}}
+\subsection{Ενδεικτικοί χρόνοι ολοκλήρωσης εκτέλεσης πειραμάτων}
 \label{subsec:runtime_notebooks}
 Για να αποτυπωθεί πρακτικά το κόστος εκτέλεσης, καταγράφηκε ο συνολικός
-\en{wall-clock} χρόνος μέχρι την ολοκλήρωση κάθε \en{run} στο \en{cloud}
+ χρόνος μέχρι την ολοκλήρωση κάθε πείραμα στο \en{cloud}
 περιβάλλον εκπαίδευσης. Στον Πίνακα~\ref{tab:runtime_results} παρατίθενται οι
 αντίστοιχοι χρόνοι, μαζί με τον επιπλέον χρόνο φόρτωσης \en{Mamba} για τις δύο
 εκτελέσεις \en{SegMamba}.
 
 \begin{table}[!htbp]
 \centering
-\caption{Ενδεικτικοί χρόνοι ολοκλήρωσης ανά \en{run}.}
+\caption{Ενδεικτικοί χρόνοι ολοκλήρωσης ανά πείραμα.}
 \label{tab:runtime_results}
 \begin{tabular}{lcc}
 \hline
@@ -565,7 +567,7 @@
 
 
 \paragraph{Περιορισμοί και παράγοντες γενίκευσης.}
-Με τα παραπάνω συμπεράσματα πρέπει να μη ξεχνάμε και τα ακόλουθα: 
+Με τα παραπάνω συμπεράσματα πρέπει να δοθούν έμφαση και στα ακόλουθα: 
 \begin{itemize}
   \item οι μετρικές προέρχονται από ένα \en{validation split} και όχι από ανεξάρτητο \en{test set} ή \en{cross-validation},
   \item οι ποιοτικές απεικονίσεις βασίζονται σε μεμονωμένες \en{2D} τομές, ενώ η αξιολόγηση είναι \en{3D}, 

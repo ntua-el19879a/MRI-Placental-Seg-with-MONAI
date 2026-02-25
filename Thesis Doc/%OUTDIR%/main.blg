@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ntua.bst
+A level-1 auxiliary file: front_matter/abstract.aux
+A level-1 auxiliary file: front_matter/acknowledgements.aux
+A level-1 auxiliary file: front_matter/preface.aux
+A level-1 auxiliary file: body_matter/intro.aux
+A level-1 auxiliary file: body_matter/chap2.aux
+A level-1 auxiliary file: body_matter/chap3.aux
+A level-1 auxiliary file: body_matter/chap4.aux
+A level-1 auxiliary file: body_matter/chap5.aux
+A level-1 auxiliary file: body_matter/chap6.aux
+A level-1 auxiliary file: body_matter/chap7.aux
+Database file #1: references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 58 entries,
+            3122 wiz_defined-function locations,
+            871 strings with 16619 characters,
+and the built_in function-call counts, 16184 in all, are:
+= -- 1119
+> -- 910
+< -- 18
++ -- 342
+- -- 284
+* -- 1518
+:= -- 2288
+add.period$ -- 176
+call.type$ -- 58
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 58
+duplicate$ -- 917
+empty$ -- 1680
+format.name$ -- 284
+if$ -- 3538
+int.to.chr$ -- 0
+int.to.str$ -- 58
+missing$ -- 40
+newline$ -- 289
+num.names$ -- 57
+pop$ -- 325
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 320
+stack$ -- 0
+substring$ -- 626
+swap$ -- 478
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 107
+width$ -- 60
+write$ -- 614
