@@ -222,7 +222,7 @@
 Η ποιοτική αξιολόγηση συμπληρώνει τις ποσοτικές μετρικές του Πίνακα
 \ref{tab:main_results}, καθώς οι μετρικές επικάλυψης (\en{Dice/IoU})
 αποτυπώνουν κυρίως τη συμφωνία ως προς τον όγκο και δεν εγγυώνται πάντα
-αντίστοιχη ακρίβεια στα όρια ή στα λεπτά τμήματα της δομής. Στα σχήματα \ref{ill1} έως \ref{ill10} 
+αντίστοιχη ακρίβεια στα όρια ή στα λεπτά τμήματα της δομής. Στις εικόνες \ref{ill1} έως \ref{ill10} 
 που ακολουθούν παρουσιάζονται \textbf{ενδεικτικές τομές} από δύο περιστατικά
 (\en{Sample 1/2}) και η σύγκριση: \en{MRI slice} (αριστερά), \en{ground truth}
 μάσκα (κέντρο) και η πρόβλεψη που επετεύχθει απο το μοντέλο (δεξιά). Ο πλακούντας και η πρόβλεψη 
@@ -241,13 +241,13 @@
 Ενότητας \ref{sec:results_ranking}. Τα μοντέλα με την υψηλότερη επίδοση σε
 \en{Dice/IoU} παράγουν πιο συνεπείς και
 ``καθαρές'' μάσκες, με όρια που ακολουθούν καλύτερα τη μορφολογία του
-πλακούντα και με ελάχιστα ψευδοθετικά. Αντίθετα, το \en{UNETR}, που είναι
+πλακούντα και με ελάχιστα ψευδοθετικά. Αντίθετα, το \en{UNETR} (\ref{ill8}), που είναι
 ποσοτικά ο ασθενέστερος \en{outlier}, εμφανίζει ορατές αστοχίες (ανομοιόμορφα
 περιγράμματα, τμηματοποιήσεις εκτός στόχου και μικρές απομονωμένες περιοχές),
 οι οποίες εξηγούν τη χαμηλή του \en{IoU} και το υψηλότερο \en{validation loss}.
 
 \paragraph{\en{CNN-based} μοντέλα.}
-Τα \en{U-Net}, \en{Attention U-Net} και \en{DynUNet} αποδίδουν γενικά σωστή
+Τα \en{U-Net}, \en{Attention U-Net} και \en{DynUNet} (\ref{ill1}, \ref{ill2}, \ref{ill7}) αποδίδουν γενικά σωστή
 γεωμετρία και συνεχείς μάσκες, με αποκλίσεις που εμφανίζονται κυρίως στα άκρα
 και σε λεπτές περιοχές (ελαφρά υπο- ή υπερ-τμηματοποίηση). Η \en{Attention U-Net}
 και το \en{DynUNet} δείχνουν πιο σταθερή συμπεριφορά από το βασικό \en{U-Net},
@@ -255,7 +255,7 @@
 (\en{Dice}$\approx 0.851$ έναντι $0.823$).
 
 \paragraph{\en{Transformer-based} μοντέλα.}
-Τα \en{SwinUNETR Heavier/Lighter} παράγουν συνεπείς προβλέψεις με καλό
+Τα \en{SwinUNETR Heavier/Lighter} (\ref{ill3}, \ref{ill4}) παράγουν συνεπείς προβλέψεις με καλό
 περιορισμό των ψευδοθετικών, κάτι που συμφωνεί με το ότι αποτελούν τις
 καλύτερες \en{Transformer-based} διαμορφώσεις της σύγκρισης
 (\en{Dice}$=0.8497/0.8490$, \en{IoU}$=0.7401/0.7387$). Η διαφορά τους είναι
@@ -268,7 +268,7 @@
 οποία υποβαθμίζουν τόσο την \en{IoU} όσο και την αντιληπτή ποιότητα ορίων.
 
 \paragraph{Μοντέλα κορυφής: \en{SegResNet} και \en{SegMamba}.}
-Τα \en{SegResNet} και \en{SegMamba} δίνουν, στις ενδεικτικές περιπτώσεις,
+Τα \en{SegResNet} και \en{SegMamba} (\ref{ill5}, \ref{ill6} και \ref{ill9}, \ref{ill10}) δίνουν, στις ενδεικτικές περιπτώσεις,
 προβλέψεις πολύ κοντά στο \en{ground truth}: η μάσκα είναι συνεχής (χωρίς
 ``τρύπες'') και τα όρια ακολουθούν πιο πιστά τη μορφολογία. Οι διαφορές μεταξύ
 ``βαριάς'' και ``ελαφριάς'' παραλλαγής είναι μικρές και συμφωνούν με τις
@@ -305,7 +305,7 @@
   \centering
   \includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SwinUNETRlighter.png}
   \caption{\en{SwinUNETR Lighter}}
-  \label{ill10}
+  \label{ill4}
 \end{Illustration}
 
 
@@ -318,13 +318,13 @@
 \begin{Illustration}[!h]
   \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_SegResHeavy.png}
   \caption{\en{SegResNet Heavier (No of Filters = 64)}}
-  \label{ill4}
+  \label{ill6}
 \end{Illustration}
 
 \begin{Illustration}[!h]
   \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_unet.png}
   \caption{\en{U-Net}}
-  \label{ill6}
+  \label{ill7}
 \end{Illustration}
 
 
@@ -333,17 +333,17 @@
 \begin{Illustration}[!h]
   \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_UNETR.png}
   \caption{\en{UNETR}}
-  \label{ill7}
+  \label{ill8}
 \end{Illustration}
 \begin{Illustration}[!h]
   \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_segmambaHEAVY.png}
   \caption{\en{SegMamba Heavier (5 layers)}}
-  \label{ill8}
+  \label{ill9}
 \end{Illustration}
 \begin{Illustration}[!h]
   \centering\includegraphics[width=0.68\linewidth]{figures/segmentation_masks_segmambaLIGHT.png}
   \caption{\en{SegMamba Lighter (4 layers)}}
-  \label{ill9}
+  \label{ill10}
 \end{Illustration}
 
 
@@ -461,10 +461,10 @@
 \en{patches} ή ποιότητας επισημειώσεων, παρά από ριζικά διαφορετική
 αρχιτεκτονική.
 
-\paragraph{Παρουσίαση \en{worst-case scenario}.}
-Ως \en{worst-case scenario} στο παρόν πρωτόκολλο μπορεί να θεωρηθεί η χαμηλότερη
+\paragraph{Σχολιασμός χειρότερης απόδοσης.}
+Ως συνολικά χειρότερη απόδοση (\en{worst-case scenario}) στο παρόν πρωτόκολλο μπορεί να θεωρηθεί η χαμηλότερη
 καταγεγραμμένη επίδοση, δηλαδή το \en{UNETR} (\en{Dice}$=0.772$, \en{IoU}$=0.6345$).
-Στα ποιοτικά αποτελέσματα (βλ. Σχ.~\ref{ill1}--\ref{ill10}) έχουμε υπο-τμηματοποίηση του πλακούντα,
+Στα ποιοτικά αποτελέσματα (βλ. Εικόνα.~\ref{ill8}) έχουμε υπο-τμηματοποίηση του πλακούντα,
 ασυνέχειες στη μάσκα και διάσπαρτα \en{false positives}, με αποτέλεσμα
 υποβάθμιση τόσο της επικάλυψης όσο και της αξιοπιστίας των ορίων.
 
@@ -526,7 +526,7 @@
 \subsection{Ενδεικτικοί χρόνοι ολοκλήρωσης εκτέλεσης πειραμάτων}
 \label{subsec:runtime_notebooks}
 Για να αποτυπωθεί πρακτικά το κόστος εκτέλεσης, καταγράφηκε ο συνολικός
- χρόνος μέχρι την ολοκλήρωση κάθε πείραμα στο \en{cloud}
+ χρόνος μέχρι την ολοκλήρωση κάθε πειράματος στο \en{cloud}
 περιβάλλον εκπαίδευσης. Στον Πίνακα~\ref{tab:runtime_results} παρατίθενται οι
 αντίστοιχοι χρόνοι, μαζί με τον επιπλέον χρόνο φόρτωσης \en{Mamba} για τις δύο
 εκτελέσεις \en{SegMamba}.

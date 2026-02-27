@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/Homebrew)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ntua.bst
+A level-1 auxiliary file: front_matter/abstract.aux
+A level-1 auxiliary file: front_matter/acknowledgements.aux
+A level-1 auxiliary file: front_matter/preface.aux
+A level-1 auxiliary file: body_matter/intro.aux
+A level-1 auxiliary file: body_matter/chap2.aux
+A level-1 auxiliary file: body_matter/chap3.aux
+A level-1 auxiliary file: body_matter/chap4.aux
+A level-1 auxiliary file: body_matter/chap5.aux
+A level-1 auxiliary file: body_matter/chap6.aux
+A level-1 auxiliary file: body_matter/chap7.aux
+Database file #1: references.bib
+Warning--I'm ignoring Isensee_2020's extra "author" field
+--line 44 of file references.bib
+Warning--entry type for "lr_schedulers" isn't style-file defined
+--line 610 of file references.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in alan._2016
+Warning--empty journal in embrplace
+Warning--empty year in embrplace
+Warning--empty title in Isensee_2020
+Warning--there's a number but no volume in Isensee_2020
+Warning--empty journal in ioffe2015batchnorm
+Warning--empty journal in wu2018groupnorm
+Warning--empty journal in wang2020linformer
+Warning--empty journal in choromanski2021performer
+You've used 57 entries,
+            3122 wiz_defined-function locations,
+            871 strings with 16535 characters,
+and the built_in function-call counts, 16015 in all, are:
+= -- 1107
+> -- 900
+< -- 18
++ -- 338
+- -- 281
+* -- 1508
+:= -- 2293
+add.period$ -- 178
+call.type$ -- 57
+change.case$ -- 1
+chr.to.int$ -- 0
+cite$ -- 66
+duplicate$ -- 925
+empty$ -- 1630
+format.name$ -- 281
+if$ -- 3473
+int.to.chr$ -- 0
+int.to.str$ -- 57
+missing$ -- 46
+newline$ -- 289
+num.names$ -- 56
+pop$ -- 318
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 306
+stack$ -- 0
+substring$ -- 630
+swap$ -- 458
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 9
+while$ -- 104
+width$ -- 59
+write$ -- 608
+(There were 11 warnings)
