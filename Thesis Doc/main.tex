@@ -143,11 +143,11 @@
 % Επιβλέποντα Καθηγητή
 	\supervisorMaleFemale{Επιβλέπων}
 %
-	\cosupervisor{Δρ. Ουρανία Πετροπούλου}
-
-	\cosupervisorMaleFemale{Συνεπιβλέπουσα}
-
-  \cosupervisorTitle{ΕΔΙΠ, Ε.Μ.Π.}
+%	\cosupervisor{Δρ. Ουρανία Πετροπούλου}
+%
+%	\cosupervisorMaleFemale{Συνεπιβλέπουσα}
+%
+%  \cosupervisorTitle{ΕΔΙΠ, Ε.Μ.Π.}
 %% -------------------------------------------------------------------
 %% ΤΟΠΟΣ/ΜΗΝΑΣ/ΕΤΟΣ ΕΚΔΟΣΗΣ
 %
@@ -261,13 +261,20 @@
 \maketitle
 
 \beginfrontmatter
-% Περίληψη
-	\include{front_matter/abstract}
-% Αφιέρωση
+\setcounter{page}{5}
+% Αφιέρωση (σελ. 5)
 	\thesisDedication{στον Πατέρα μου και στην Μητέρα μου}
-% Ευχαριστίες
+% Περίληψη (σελ. 7)
+	\cleardoublepage
+	\include{front_matter/abstract_gr}
+% Abstract (σελ. 9)
+	\cleardoublepage
+	\include{front_matter/abstract_en}
+% Ευχαριστίες (σελ. 11)
+	\cleardoublepage
 	\include{front_matter/acknowledgements}
-% Πίνακας Περιεχομένων
+% Πίνακας Περιεχομένων (σελ. 13)
+	\cleardoublepage
 	\tableofcontents
 % Κατάλογος Σχημάτων
 	% \listoffigures

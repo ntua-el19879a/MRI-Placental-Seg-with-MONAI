@@ -1,35 +1,35 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025/Homebrew) (preloaded format=pdflatex 2025.11.7)  11 FEB 2026 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.5)  5 MAR 2026 12:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"/Users/gregtsen/Desktop/notes/MRI-Placental-Seg-with-MONAI/Thesis Doc/main.tex"
 (/Users/gregtsen/Desktop/notes/MRI-Placental-Seg-with-MONAI/Thesis Doc/main.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
 (./ntua-thesis.cls
 Document Class: ntua-thesis 2020/01/21 1.0 LaTeX document class.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/ifthen.sty
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics/keyval.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics/graphics.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics/trig.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen141
-\Gin@req@width=\dimen142
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip49
 \f@nch@offset@elh=\skip50
@@ -46,41 +46,79 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip61
 \f@nch@widthR=\skip62
 \@temptokenb=\toks18
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count196
-\c@chapter=\count197
-\c@section=\count198
-\c@subsection=\count199
-\c@subsubsection=\count266
-\c@paragraph=\count267
-\c@subparagraph=\count268
-\c@figure=\count269
-\c@table=\count270
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
 \abovecaptionskip=\skip63
 \belowcaptionskip=\skip64
-\bibindent=\dimen143
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
-\babel@savecnt=\count271
-\U@D=\dimen144
-\l@unhyphenated=\language90
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/babel/txtbabel.def)
+\bibindent=\dimen150
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
+\U@D=\dimen151
+\l@unhyphenated=\language3
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count272
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/babel-greek/greek.ldf
+\bbl@dirlevel=\count285
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/el/babel-greek.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing font and identification data for greek
+(babel)             from babel-el.ini. Reported on input line 4320.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/babel-greek/greek.ldf
 Language: greek 2023/10/13 1.15 Greek support for the babel system
-\bbl@monogreek=\count273
-\bbl@polygreek=\count274
-\bbl@ancientgreek=\count275
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
+
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'greek' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 46.
+
+Package babel Info: Hyphen rules for 'greek' set to \l@english
+(babel)             (\language0). Reported on input line 47.
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'greek' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 50.
+
+Package babel Info: Hyphen rules for 'monogreek' set to \l@english
+(babel)             (\language0). Reported on input line 51.
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'greek' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 54.
+
+Package babel Info: Hyphen rules for 'ancientgreek' set to \l@english
+(babel)             (\language0). Reported on input line 55.
+\bbl@monogreek=\count286
+\bbl@polygreek=\count287
+\bbl@ancientgreek=\count288
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/greek-fontenc/lgrenc.def
 File: lgrenc.def 2023-09-12 2.5 LGR Greek font encoding definitions
 Now handling font encoding LGR ...
 ... processing UTF-8 mapping file for font encoding LGR
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/greek-inputenc/lgrenc.dfu
 File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+00A8 (decimal 168)
    defining Unicode char U+00AB (decimal 171)
@@ -431,131 +469,145 @@ File: lgrenc.dfu 2023-03-21 1.9 UTF-8 support for Greek
    defining Unicode char U+10145 (decimal 65861)
    defining Unicode char U+10146 (decimal 65862)
    defining Unicode char U+10147 (decimal 65863)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
-))) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/babel-english/english.ldf
+LaTeX Encoding Info:    Ignoring declaration for text command \accACUTE (encoding LGR) on input line 251.
+LaTeX Encoding Info:    Ignoring declaration for text command \accGRAVE (encoding LGR) on input line 259.
+LaTeX Encoding Info:    Ignoring declaration for text command \accTILDE (encoding LGR) on input line 267.
+))
+LaTeX Encoding Info:    Ignoring declaration for text command \textmugreek (encoding LGR) on input line 638.
+)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4320.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language22). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language22). Reported on input line 108.
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/babel/locale/el/babel-greek.tex
-Package babel Info: Importing font and identification data for greek
-(babel)             from babel-el.ini. Reported on input line 11.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/inputenc.sty
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks19
 \inpenc@posthook=\toks20
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/greek-fontenc/textalpha.sty
+Package: textalpha 2023-09-12 2.5 macros for Greek letters in text
+   defining Unicode char U+00B5 (decimal 181)
+LaTeX Encoding Info:    Ignoring declaration for text command \greekscript (encoding ?) on input line 320.
+LaTeX Encoding Info:    Ignoring declaration for text command \ensuregreek (encoding ?) on input line 327.
+LaTeX Encoding Info:    Redeclaring text command \textmu (encoding ?) on input line 388.
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box52
-\sift@deathcycles=\count276
-\@vwid@loff=\dimen145
-\@vwid@roff=\dimen146
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/xstring/xstring.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count277
-\xs_countb=\count278
+\@vwid@box=\box53
+\sift@deathcycles=\count289
+\@vwid@loff=\dimen152
+\@vwid@roff=\dimen153
+)
+==> First Aid for varwidth.sty applied!
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/xstring/xstring.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count290
+\xs_countb=\count291
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
-\col@sep=\dimen147
-\ar@mcellbox=\box53
-\extrarowheight=\dimen148
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box54
+\extrarowheight=\dimen155
 \NC@list=\toks21
 \extratabsurround=\skip65
 \backup@length=\skip66
-\ar@cellbox=\box54
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/calculator/calculator.sty
+\ar@cellbox=\box55
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/calculator/calculator.sty
 Package: calculator 2022/09/15 v.2.1
-\cctr@lengtha=\dimen149
-\cctr@lengthb=\dimen150
-\cctr@epsilon=\dimen151
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/url/url.sty
+\cctr@lengtha=\dimen156
+\cctr@lengthb=\dimen157
+\cctr@epsilon=\dimen158
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/relsize/relsize.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/newfloat/newfloat.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/newfloat/newfloat.sty
 Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
 Package newfloat Info: Document class `book' detected (original).
 )
-Package newfloat Info: New float `illustration' with options ` fileext=loi, name=Eik'ona, placement=tbhp, within=chapter, ' on input line 593.
-\c@illustration=\count279
-\newfloat@ftype=\count280
-Package newfloat Info: float type `illustration'=8 on input line 593.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
+Package newfloat Info: New float `illustration' with options ` fileext=loi, name=Eik'ona, placement=tbhp, within=chapter, ' on input line 605.
+\c@illustration=\count292
+\newfloat@ftype=\count293
+Package newfloat Info: float type `illustration'=8 on input line 605.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip67
 
 For additional information on amsmath, use the `?' option.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
-\ex@=\dimen152
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\ex@=\dimen159
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen153
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen160
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count281
+\inf@bad=\count294
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count282
-\leftroot@=\count283
+\uproot@=\count295
+\leftroot@=\count296
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count284
-\DOTSCASE@=\count285
+\classnum@=\count297
+\DOTSCASE@=\count298
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
+\Mathstrutbox@=\box56
+\strutbox@=\box57
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen154
+\big@size=\dimen161
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count286
+\macc@depth=\count299
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count287
+\c@MaxMatrixCols=\count300
 \dotsspace@=\muskip18
-\c@parentequation=\count288
-\dspbrk@lvl=\count289
+\c@parentequation=\count301
+\dspbrk@lvl=\count302
 \tag@help=\toks23
-\row@=\count290
-\column@=\count291
-\maxfields@=\count292
+\row@=\count303
+\column@=\count304
+\maxfields@=\count305
 \andhelp@=\toks24
-\eqnshift@=\dimen155
-\alignsep@=\dimen156
-\tagshift@=\dimen157
-\tagwidth@=\dimen158
-\totwidth@=\dimen159
-\lineht@=\dimen160
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
 \@envbody=\toks25
 \multlinegap=\skip68
 \multlinetaggap=\skip69
 \mathdisplay@stack=\toks26
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amscls/amsthm.sty
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks27
 \thm@bodyfont=\toks28
@@ -566,16 +618,16 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip71
 \thm@headsep=\skip72
 \dth@everypar=\toks32
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/kmath.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/txfonts.sty
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kerkis/kmath.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -658,6 +710,8 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 \symlargesymbolsA=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \L (encoding OT1) on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \l (encoding OT1) on input line 161.
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
 LaTeX Info: Redefining \not on input line 1043.
 LaTeX Info: Redefining \textsquare on input line 1063.
@@ -683,245 +737,282 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
 (Font)                  OT1/txss/m/n --> T1/txss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/txtt/m/n --> T1/txtt/m/n on input line 25.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/kerkis.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kerkis/kerkis.sty
 File: kerkis.sty 2000/02/25 v1.5 Package `kerkis.sty'
    *********************************************** ******** Loading The Kerkis FontFamily ******** ********** Department of Mathematics ********** *********** University of the Aegean ********** ***********************************************
+LaTeX Encoding Info:    Redeclaring text command \` (encoding OT1) on input line 28.
+LaTeX Encoding Info:    Redeclaring text command \' (encoding OT1) on input line 29.
+LaTeX Encoding Info:    Redeclaring text command \^ (encoding OT1) on input line 30.
+LaTeX Encoding Info:    Redeclaring text command \~ (encoding OT1) on input line 31.
+LaTeX Encoding Info:    Redeclaring text command \H (encoding OT1) on input line 35.
+LaTeX Encoding Info:    Redeclaring text command \r (encoding OT1) on input line 36.
+LaTeX Encoding Info:    Redeclaring text command \v (encoding OT1) on input line 38.
+LaTeX Encoding Info:    Redeclaring text command \u (encoding OT1) on input line 39.
+LaTeX Encoding Info:    Redeclaring text command \= (encoding OT1) on input line 40.
+LaTeX Encoding Info:    Redeclaring text command \. (encoding OT1) on input line 41.
+LaTeX Encoding Info:    Redeclaring text command \b (encoding OT1) on input line 42.
+LaTeX Encoding Info:    Redeclaring text command \c (encoding OT1) on input line 45.
+LaTeX Encoding Info:    Redeclaring text command \d (encoding OT1) on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding OT1) on input line 51.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding OT1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text symbol \L (encoding OT1) on input line 61.
+LaTeX Encoding Info:    Redeclaring text symbol \i (encoding OT1) on input line 62.
+LaTeX Encoding Info:    Redeclaring text symbol \j (encoding OT1) on input line 63.
+LaTeX Encoding Info:    Redeclaring text symbol \l (encoding OT1) on input line 64.
+LaTeX Encoding Info:    Redeclaring text symbol \textexclamdown (encoding OT1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text symbol \textquestiondown (encoding OT1) on input line 68.
+LaTeX Encoding Info:    Redeclaring text symbol \AE (encoding OT1) on input line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \ae (encoding OT1) on input line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \O (encoding OT1) on input line 80.
+LaTeX Encoding Info:    Redeclaring text symbol \o (encoding OT1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \OE (encoding OT1) on input line 82.
+LaTeX Encoding Info:    Redeclaring text symbol \oe (encoding OT1) on input line 83.
+LaTeX Encoding Info:    Redeclaring text symbol \ss (encoding OT1) on input line 84.
+LaTeX Encoding Info:    Redeclaring text command \textbackslash (encoding ?) on input line 90.
+LaTeX Encoding Info:    Redeclaring text command \textvisiblespace (encoding ?) on input line 92.
+LaTeX Encoding Info:    Redeclaring text command \textbraceleft (encoding ?) on input line 96.
+LaTeX Encoding Info:    Redeclaring text command \textbraceright (encoding ?) on input line 98.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding ?) on input line 100.
+LaTeX Encoding Info:    Redeclaring text command \textunderscore (encoding ?) on input line 101.
 LaTeX Info: Redefining \LaTeX on input line 156.
 LaTeX Info: Redefining \LaTeXe on input line 166.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/beramono.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 ) LaTeX Warning: (ntua_thesis.cls): The "noindex" option has been selected. Index generation has been disabled. To allow index generation, please remove the "noindex" option.
  
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/iftex/iftex.sty
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/refcount/refcount.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count293
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/stringenc/stringenc.sty
+\c@section@level=\count306
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count307
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen161
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count308
+\Hy@pagecounter=\count309
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count297
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count310
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/greek-fontenc/puenc-greek.def
 File: puenc-greek.def 2023-09-12 2.5 Greek LICRs for PDF strings
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/greek-fontenc/greek-fontenc.def
 File: greek-fontenc.def 2023-09-12 2.5 Common Greek font encoding definitions
-)))
-Package hyperref Info: Option `unicode' set `true' on input line 4040.
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+)
+LaTeX Encoding Info:    Redeclaring text command \textmu (encoding PU) on input line 179.
+)
+LaTeX Encoding Info:    Redeclaring text command \textohm (encoding PU) on input line 1176.
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count298
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen162
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count311
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen169
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count299
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Fld@menulength=\count312
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count313
+\c@Item=\count314
+\c@Hfootnote=\count315
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
-with kernel methods
-)
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count316
+\c@bookmark@seq@number=\count317
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip73
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bookmark/bookmark.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count305
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/algorithms/algorithm.sty
+\BKM@id=\count318
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/float/float.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count306
+\c@float@type=\count319
 \float@exts=\toks33
-\float@box=\box57
+\float@box=\box58
 \@float@everytoks=\toks34
-\@floatcapt=\box58
+\@floatcapt=\box59
 )
 \@float@every@algorithm=\toks35
-\c@algorithm=\count307
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+\c@algorithm=\count320
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count308
-\c@ALG@rem=\count309
-\c@ALG@nested=\count310
+\c@ALG@line=\count321
+\c@ALG@rem=\count322
+\c@ALG@nested=\count323
 \ALG@tlm=\skip74
 \ALG@thistlm=\skip75
-\c@ALG@Lnr=\count311
-\c@ALG@blocknr=\count312
-\c@ALG@storecount=\count313
-\c@ALG@tmpcounter=\count314
+\c@ALG@Lnr=\count324
+\c@ALG@blocknr=\count325
+\c@ALG@storecount=\count326
+\c@ALG@tmpcounter=\count327
 \ALG@tmplength=\skip76
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count315
-\lst@gtempboxa=\box59
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count328
+\lst@gtempboxa=\box60
 \lst@token=\toks36
-\lst@length=\count316
-\lst@currlwidth=\dimen165
-\lst@column=\count317
-\lst@pos=\count318
-\lst@lostspace=\dimen166
-\lst@width=\dimen167
-\lst@newlines=\count319
-\lst@lineno=\count320
-\lst@maxwidth=\dimen168
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
-\c@lstnumber=\count321
-\lst@skipnumbers=\count322
-\lst@framebox=\box60
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/09/23 1.10c listings configuration
+\lst@length=\count329
+\lst@currlwidth=\dimen172
+\lst@column=\count330
+\lst@pos=\count331
+\lst@lostspace=\dimen173
+\lst@width=\dimen174
+\lst@newlines=\count332
+\lst@lineno=\count333
+\lst@maxwidth=\dimen175
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count334
+\lst@skipnumbers=\count335
+\lst@framebox=\box61
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
-Package: listings 2024/09/23 1.10c (Carsten Heinz)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks37
-\pgfutil@tempdima=\dimen169
-\pgfutil@tempdimb=\dimen170
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box61
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+\pgfutil@tempdima=\dimen176
+\pgfutil@tempdimb=\dimen177
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box62
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
-Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks38
 \pgfkeys@temptoks=\toks39
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks40
 ))
-\pgf@x=\dimen171
-\pgf@y=\dimen172
-\pgf@xa=\dimen173
-\pgf@ya=\dimen174
-\pgf@xb=\dimen175
-\pgf@yb=\dimen176
-\pgf@xc=\dimen177
-\pgf@yc=\dimen178
-\pgf@xd=\dimen179
-\pgf@yd=\dimen180
+\pgf@x=\dimen178
+\pgf@y=\dimen179
+\pgf@xa=\dimen180
+\pgf@ya=\dimen181
+\pgf@xb=\dimen182
+\pgf@yb=\dimen183
+\pgf@xc=\dimen184
+\pgf@yc=\dimen185
+\pgf@xd=\dimen186
+\pgf@yd=\dimen187
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count323
-\c@pgf@countb=\count324
-\c@pgf@countc=\count325
-\c@pgf@countd=\count326
+\c@pgf@counta=\count336
+\c@pgf@countb=\count337
+\c@pgf@countc=\count338
+\c@pgf@countd=\count339
 \t@pgf@toka=\toks41
 \t@pgf@tokb=\toks42
 \t@pgf@tokc=\toks43
-\pgf@sys@id@count=\count327
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+\pgf@sys@id@count=\count340
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count328
-\pgfsyssoftpath@bigbuffer@items=\count329
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+))) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count341
+\pgfsyssoftpath@bigbuffer@items=\count342
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 
 Package xcolor Warning: Package option `hyperref' is obsolete and ignored on input line 265.
 
 Package xcolor Info: Driver file: pdftex.def on input line 274.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -931,386 +1022,382 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen181
-\pgfmath@count=\count330
-\pgfmath@box=\box62
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen188
+\pgfmath@count=\count343
+\pgfmath@box=\box63
 \pgfmath@toks=\toks44
 \pgfmath@stack@operand=\toks45
 \pgfmath@stack@operation=\toks46
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count331
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen182
-\pgf@picmaxx=\dimen183
-\pgf@picminy=\dimen184
-\pgf@picmaxy=\dimen185
-\pgf@pathminx=\dimen186
-\pgf@pathmaxx=\dimen187
-\pgf@pathminy=\dimen188
-\pgf@pathmaxy=\dimen189
-\pgf@xx=\dimen190
-\pgf@xy=\dimen191
-\pgf@yx=\dimen192
-\pgf@yy=\dimen193
-\pgf@zx=\dimen194
-\pgf@zy=\dimen195
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen196
-\pgf@path@lasty=\dimen197
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen198
-\pgf@shorten@start@additional=\dimen199
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box63
-\pgf@hbox=\box64
-\pgf@layerbox@main=\box65
-\pgf@picture@serial@count=\count332
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen256
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen257
-\pgf@pt@y=\dimen258
-\pgf@pt@temp=\dimen259
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen260
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen261
-\pgf@sys@shading@range@num=\count333
-\pgf@shadingcount=\count334
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box66
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box67
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen262
-\pgf@nodesepend=\dimen263
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen264
-\pgffor@skip=\dimen265
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count344
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen189
+\pgf@picmaxx=\dimen190
+\pgf@picminy=\dimen191
+\pgf@picmaxy=\dimen192
+\pgf@pathminx=\dimen193
+\pgf@pathmaxx=\dimen194
+\pgf@pathminy=\dimen195
+\pgf@pathmaxy=\dimen196
+\pgf@xx=\dimen197
+\pgf@xy=\dimen198
+\pgf@yx=\dimen199
+\pgf@yy=\dimen256
+\pgf@zx=\dimen257
+\pgf@zy=\dimen258
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen259
+\pgf@path@lasty=\dimen260
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen261
+\pgf@shorten@start@additional=\dimen262
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count345
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen263
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen264
+\pgf@pt@y=\dimen265
+\pgf@pt@temp=\dimen266
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen267
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen268
+\pgf@sys@shading@range@num=\count346
+\pgf@shadingcount=\count347
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box67
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box68
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen269
+\pgf@nodesepend=\dimen270
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen271
+\pgffor@skip=\dimen272
 \pgffor@stack=\toks47
 \pgffor@toks=\toks48
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count335
-\pgfplotmarksize=\dimen266
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count348
+\pgfplotmarksize=\dimen273
 )
-\tikz@lastx=\dimen267
-\tikz@lasty=\dimen268
-\tikz@lastxsaved=\dimen269
-\tikz@lastysaved=\dimen270
-\tikz@lastmovetox=\dimen271
-\tikz@lastmovetoy=\dimen272
-\tikzleveldistance=\dimen273
-\tikzsiblingdistance=\dimen274
-\tikz@figbox=\box68
-\tikz@figbox@bg=\box69
-\tikz@tempbox=\box70
-\tikz@tempbox@bg=\box71
-\tikztreelevel=\count336
-\tikznumberofchildren=\count337
-\tikznumberofcurrentchild=\count338
-\tikz@fig@count=\count339
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count340
-\pgfmatrixcurrentcolumn=\count341
-\pgf@matrix@numberofcolumns=\count342
+\tikz@lastx=\dimen274
+\tikz@lasty=\dimen275
+\tikz@lastxsaved=\dimen276
+\tikz@lastysaved=\dimen277
+\tikz@lastmovetox=\dimen278
+\tikz@lastmovetoy=\dimen279
+\tikzleveldistance=\dimen280
+\tikzsiblingdistance=\dimen281
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count349
+\tikznumberofchildren=\count350
+\tikznumberofcurrentchild=\count351
+\tikz@fig@count=\count352
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count353
+\pgfmatrixcurrentcolumn=\count354
+\pgf@matrix@numberofcolumns=\count355
 )
-\tikz@expandcount=\count343
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count344
-\calc@Bcount=\count345
-\calc@Adimen=\dimen275
-\calc@Bdimen=\dimen276
+\tikz@expandcount=\count356
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count357
+\calc@Bcount=\count358
+\calc@Adimen=\dimen282
+\calc@Bdimen=\dimen283
 \calc@Askip=\skip77
 \calc@Bskip=\skip78
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count346
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count359
 \calc@Cskip=\skip79
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box72
+\ttl@box=\box73
 \beforetitleunit=\skip80
 \aftertitleunit=\skip81
-\ttl@plus=\dimen277
-\ttl@minus=\dimen278
+\ttl@plus=\dimen284
+\ttl@minus=\dimen285
 \ttl@toksa=\toks49
-\titlewidth=\dimen279
-\titlewidthlast=\dimen280
-\titlewidthfirst=\dimen281
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/setspace/setspace.sty
+\titlewidth=\dimen286
+\titlewidthlast=\dimen287
+\titlewidthfirst=\dimen288
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-\c@ttlp@side=\count347
-\ttlp@side=\count348
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+\c@ttlp@side=\count360
+\ttlp@side=\count361
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/grfext/grfext.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
-))) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/tools/indentfirst.sty
+))) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/tools/verbatim.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks50
 \verbatim@line=\toks51
 \verbatim@in@stream=\read4
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/latexsym.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hyphenat/hyphenat.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hyphenat/hyphenat.sty
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
-\langwohyphens=\language91
+\langwohyphens=\language4
 LaTeX Info: Redefining \_ on input line 43.
 )
-\c@definition=\count349
-\c@proposition=\count350
-\c@theorem=\count351
-\c@corollary=\count352
-\c@lemma=\count353
-\c@example=\count354
-\c@remark=\count355
-\c@notation=\count356
-\c@law=\count357
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/caption/caption.sty
+\c@definition=\count362
+\c@proposition=\count363
+\c@theorem=\count364
+\c@corollary=\count365
+\c@lemma=\count366
+\c@example=\count367
+\c@remark=\count368
+\c@notation=\count369
+\c@law=\count370
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/caption/caption3.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen282
-\captionmargin=\dimen283
-\caption@leftmargin=\dimen284
-\caption@rightmargin=\dimen285
-\caption@width=\dimen286
-\caption@indent=\dimen287
-\caption@parindent=\dimen288
-\caption@hangindent=\dimen289
+\caption@tempdima=\dimen289
+\captionmargin=\dimen290
+\caption@leftmargin=\dimen291
+\caption@rightmargin=\dimen292
+\caption@width=\dimen293
+\caption@indent=\dimen294
+\caption@parindent=\dimen295
+\caption@hangindent=\dimen296
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count358
-\c@continuedfloat=\count359
+\c@caption@flags=\count371
+\c@continuedfloat=\count372
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/lettrine/lettrine.sty
-File: lettrine.sty 2025-01-30 v2.80 (Daniel Flipo)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/l3packages/xfp/xfp.sty (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
-\l__pdf_internal_box=\box73
-))
-Package: xfp 2024-08-16 L3 Floating point unit
-)
-\c@DefaultLines=\count361
-\c@DefaultDepth=\count362
-\DefaultFindent=\dimen290
-\DefaultNindent=\dimen291
-\DefaultSlope=\dimen292
-\DiscardVskip=\dimen293
-\L@lettrine=\box74
-\L@lbox=\box75
-\L@tbox=\box76
-\c@L@lines=\count363
-\c@L@depth=\count364
-\L@Pindent=\dimen294
-\L@Findent=\dimen295
-\L@Nindent=\dimen296
-\L@lraise=\dimen297
-\L@first=\dimen298
-\L@next=\dimen299
-\L@slope=\dimen300
-\L@height=\dimen301
-\L@novskip=\dimen302
-\L@target@ht=\dimen303
-\L@target@dp=\dimen304
-\L@target@tht=\dimen305
-\LettrineWidth=\dimen306
-\LettrineHeight=\dimen307
-\LettrineDepth=\dimen308
-\L@finalht=\dimen309
-\L@finaldp=\dimen310
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2025-12-06 v2.83 (Daniel Flipo)
+\c@DefaultLines=\count373
+\c@DefaultDepth=\count374
+\DefaultFindent=\dimen297
+\DefaultNindent=\dimen298
+\DefaultSlope=\dimen299
+\DiscardVskip=\dimen300
+\L@lbox=\box74
+\c@L@lines=\count375
+\c@L@depth=\count376
+\L@Pindent=\dimen301
+\L@Findent=\dimen302
+\L@Nindent=\dimen303
+\L@lraise=\dimen304
+\L@first=\dimen305
+\L@next=\dimen306
+\L@slope=\dimen307
+\L@height=\dimen308
+\L@novskip=\dimen309
+\L@target@ht=\dimen310
+\L@target@dp=\dimen311
+\L@target@tht=\dimen312
+\LettrineWidth=\dimen313
+\LettrineHeight=\dimen314
+\LettrineDepth=\dimen315
+\L@finalht=\dimen316
+\L@finaldp=\dimen317
 
 Loading lettrine.cfg
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/lettrine/lettrine.cfg)
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/lettrine/lettrine.cfg)
 \Lettrine@tweaks=\toks52
 \Llist@everypar=\toks53
 )
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1761.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
+Package babel Info: 'greek' activates 'greek' shorthands.
+(babel)             Reported on input line 1790.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 1790.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
-)) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/caption/subcaption.sty
+)) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count365
+\c@subfigure=\count377
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count366
+\c@subtable=\count378
 Package caption Info: New subtype `subillustration' on input line 238.
-\c@subillustration=\count367
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/placeins/placeins.sty
+\c@subillustration=\count379
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 246.
-Package hyperref Info: Option `unicode' set `true' on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+Package hyperref Info: Option `colorlinks' set `true' on input line 259.
+Package hyperref Info: Option `unicode' set `true' on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
-) (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/hypcap/hypcap.sty
+) (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/hypcap/hypcap.sty
 Package: hypcap 2024-07-26 v1.13 Adjusting the anchors of captions (HO)
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ))
-LaTeX Font Info:    Trying to load font information for LGR+mak on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/lgrmak.fd)
+LaTeX Font Info:    Trying to load font information for LGR+mak on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kerkis/lgrmak.fd)
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 246.
- (./main.aux
+(Font)              scaled to size 9.85492pt on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count380
+) (./main.aux
 LaTeX Font Info:    Trying to load font information for T1+mak on input line 9.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/t1mak.fd)
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kerkis/t1mak.fd)
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 9.85492pt on input line 9.
- (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
+ (./front_matter/abstract_gr.aux) (./front_matter/abstract_en.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 246.
-LaTeX Font Info:    Trying to load font information for OML+txmi on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 259.
+LaTeX Font Info:    Trying to load font information for OML+txmi on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 246.
-LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 259.
+LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 246.
-LaTeX Font Info:    Trying to load font information for OMX+txex on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 259.
+LaTeX Font Info:    Trying to load font information for OMX+txex on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 246.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxexa.fd
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 259.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 259.
+LaTeX Font Info:    ... okay on input line 259.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count368
-\scratchdimen=\dimen311
-\scratchbox=\box77
-\nofMPsegments=\count369
-\nofMParguments=\count370
+\scratchcounter=\count381
+\scratchdimen=\dimen318
+\scratchbox=\box75
+\nofMPsegments=\count382
+\nofMParguments=\count383
 \everyMPshowfont=\toks54
-\MPscratchCnt=\count371
-\MPscratchDim=\dimen312
-\MPnumerator=\count372
-\makeMPintoPDFobject=\count373
+\MPscratchCnt=\count384
+\MPscratchDim=\dimen319
+\MPnumerator=\count385
+\makeMPintoPDFobject=\count386
 \everyMPtoPDFconversion=\toks55
 )
 Package newfloat Info: `float' package detected.
-Package hyperref Info: Link coloring ON on input line 246.
-\c@lstlisting=\count374
+LaTeX Encoding Info:    Redeclaring text command \k (encoding T1) on input line 259.
+LaTeX Encoding Info:    Redeclaring text command \" (encoding OT1) on input line 259.
+Package hyperref Info: Link coloring ON on input line 259.
+\c@lstlisting=\count387
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OML+mak on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/kerkis/omlmak.fd)
+LaTeX Font Info:    Trying to load font information for OML+mak on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/kerkis/omlmak.fd)
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 249.
+(Font)              scaled to size 9.85492pt on input line 262.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 249.
+(Font)              scaled to size 7.19995pt on input line 262.
 LaTeX Font Info:    Font shape `OML/mak/m/it' will be
-(Font)              scaled to size 5.39996pt on input line 249.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxsya.fd
+(Font)              scaled to size 5.39996pt on input line 262.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxsyb.fd
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxmia.fd
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 249.
+(Font)              scaled to size 7.19995pt on input line 262.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 249.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 249.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/base/ulasy.fd
+(Font)              scaled to size 5.39996pt on input line 262.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 262.
+ (/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Package epstopdf Info: Source file: <logo/pyrforos.eps>
@@ -1320,59 +1407,55 @@ Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 58500 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo/pyrforos-eps-converted-to.pdf logo/pyrforos.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 <logo/pyrforos-eps-converted-to.pdf, id=7, 557.08125pt x 557.08125pt>
 File: logo/pyrforos-eps-converted-to.pdf Graphic file (type pdf)
 <use logo/pyrforos-eps-converted-to.pdf>
-Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 262.
 (pdftex.def)             Requested size: 71.13188pt x 71.13104pt.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 249.
+(Font)              scaled to size 10.79993pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 10.79993pt on input line 249.
+(Font)              scaled to size 10.79993pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 249.
+(Font)              scaled to size 8.99994pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 8.99994pt on input line 249.
+(Font)              scaled to size 8.99994pt on input line 262.
 
-Overfull \hbox (95.13191pt too wide) in paragraph at lines 249--249
+Overfull \hbox (95.13191pt too wide) in paragraph at lines 262--262
  [][] 
  []
 
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 249.
+(Font)              scaled to size 18.66588pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 17.35912pt on input line 249.
+(Font)              scaled to size 17.35912pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 17.35912pt on input line 249.
+(Font)              scaled to size 17.35912pt on input line 262.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 17.35912pt on input line 249.
+(Font)              scaled to size 17.35912pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 249.
+(Font)              scaled to size 12.9599pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
-(Font)              scaled to size 12.9599pt on input line 249.
+(Font)              scaled to size 12.9599pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 18.66588pt on input line 249.
+(Font)              scaled to size 18.66588pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 17.35912pt on input line 249.
+(Font)              scaled to size 17.35912pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 12.0526pt on input line 249.
+(Font)              scaled to size 12.0526pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 12.0526pt on input line 249.
+(Font)              scaled to size 12.0526pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 249.
-
-
+(Font)              scaled to size 10.79993pt on input line 262.
 [1
 
 
-{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/gpkerkis.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kerkisec.enc} <./logo/pyrforos-eps-converted-to.pdf>]
+{/Users/gregtsen/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/kerkis/gpkerkis.enc}{/Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/kerkis/kerkisec.enc} <./logo/pyrforos-eps-converted-to.pdf>]
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 249.
-
-
-[2
+(Font)              scaled to size 5.39996pt on input line 262.
+ [2
 
 ]
 Package epstopdf Info: Source file: <logo/pyrforos.eps>
@@ -1382,29 +1465,25 @@ Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 58500 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo/pyrforos-eps-converted-to.pdf logo/pyrforos.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 File: logo/pyrforos-eps-converted-to.pdf Graphic file (type pdf)
 <use logo/pyrforos-eps-converted-to.pdf>
-Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 262.
 (pdftex.def)             Requested size: 45.52458pt x 45.51944pt.
 LaTeX Font Info:    Font shape `LGR/mak/m/sc' will be
-(Font)              scaled to size 9.85492pt on input line 249.
+(Font)              scaled to size 9.85492pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 249.
+(Font)              scaled to size 15.55188pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 249.
+(Font)              scaled to size 15.55188pt on input line 262.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 249.
+(Font)              scaled to size 15.55188pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 249.
+(Font)              scaled to size 12.9599pt on input line 262.
 LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
-(Font)              scaled to size 9.85492pt on input line 249.
-
-
-[3]
-
-[4]
+(Font)              scaled to size 9.85492pt on input line 262.
+ [3]
 Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 143946 bytes
@@ -1412,189 +1491,137 @@ Package epstopdf Info: Source file: <logo/pyrforos.eps>
 (epstopdf)                    date: 2025-12-16 19:35:37
 (epstopdf)                    size: 58500 bytes
 (epstopdf)             Command: <repstopdf --outfile=logo/pyrforos-eps-converted-to.pdf logo/pyrforos.eps>
-(epstopdf)             \includegraphics on input line 249.
+(epstopdf)             \includegraphics on input line 262.
 Package epstopdf Info: Output file is already uptodate.
 File: logo/pyrforos-eps-converted-to.pdf Graphic file (type pdf)
 <use logo/pyrforos-eps-converted-to.pdf>
-Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 249.
+Package pdftex.def Info: logo/pyrforos-eps-converted-to.pdf  used on input line 262.
 (pdftex.def)             Requested size: 45.52458pt x 45.51944pt.
-LaTeX Font Info:    Trying to load font information for TS1+mak on input line 249.
-LaTeX Font Info:    No file TS1mak.fd. on input line 249.
+LaTeX Font Info:    Trying to load font information for TS1+mak on input line 262.
+LaTeX Font Info:    No file TS1mak.fd. on input line 262.
 
 
 LaTeX Font Warning: Font shape `TS1/mak/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textcopyright' on input line 249.
+(Font)              for symbol `textcopyright' on input line 262.
 
-LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 249.
 
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
+
+ []
 
 [5
 
-{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
-[6
+] [6
 
 ]
-\openout2 = `front_matter/abstract.aux'.
+\openout2 = `front_matter/abstract_gr.aux'.
 
- (./front_matter/abstract.tex
+ (./front_matter/abstract_gr.tex
+LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
+(Font)              scaled to size 9.85492pt on input line 1.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
 
+Overfull \hbox (2.67067pt too wide) in paragraph at lines 8--13
+\LGR/mak/m/n/10.95 s‘gqron-wn ar-qitek-tonik∏n ba-jiàc màjhshc gi-a \T1/mak/m/n/10.95 3D \LGR/mak/m/n/10.95 tmh-matopo–hsh plako‘n-ta. Anap-t‘qjhke
+ []
+
+[7
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 \end{abstract}
-                    [1
+]) [8
 
 
-]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.34 \begin{abstracteng}
-                         [2
 
 ]
+\openout2 = `front_matter/abstract_en.aux'.
+
+ (./front_matter/abstract_en.tex
+Overfull \hbox (3.86824pt too wide) in paragraph at lines 19--20
+\T1/mak/m/n/10.95 space-based mod-el-s, as-sessed through Dice/IoU and qual-i-ta-tive in-spec-tion of the -produced
+ []
+
+
+Overfull \hbox (21.06624pt too wide) in paragraph at lines 24--25
+[]\T1/mak/m/n/10.95 Overall, the the-sis pro-vides a clear ref-er-ence frame-work for choos-ing pla-cen-ta -segmentation
+ []
+
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 59.
-)
+(Font)              scaled to size 12.9599pt on input line 26.
+) [9
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.252 	\include{front_matter/abstract}
-                                       [3]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.254 ...ŒøœÖ Œ∫Œ±Œπ œÉœÑŒ∑ŒΩ ŒúŒ∑œÑŒ≠œÅŒ± ŒºŒøœÖ}
-                                                   [4
+] [10
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--254
-
- []
-
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.256 	\include
-               {front_matter/acknowledgements} [5]
 \openout2 = `front_matter/acknowledgements.aux'.
 
- (./front_matter/acknowledgements.tex
+ (./front_matter/acknowledgements.tex) [11
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.8 \begin{acknowledgements}
-                             [6
-
-
-])
-
-[7]
-
-[8
+] [12
 
 
 
 ] (./main.toc
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 5.
+(Font)              scaled to size 9.85492pt on input line 8.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 15.
+(Font)              scaled to size 10.79993pt on input line 39.
 
-Overfull \hbox (5.39873pt too wide) in paragraph at lines 37--37
- [][] [][][]\LGR/mak/m/n/10.95 ArqitektonikËc pu-kn†c prÏble-yhc: []\T1/mak/m/n/10.95 FCN[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 encoder--decoder []\LGR/mak/m/n/10.95 kai []\T1/mak/m/n/10.95 U-shaped 
+Overfull \hbox (5.39873pt too wide) in paragraph at lines 73--73
+ [][] [][][]\LGR/mak/m/n/10.95 ArqitektonikËc pukn†c prÏb-ley-hc: \T1/mak/m/n/10.95 FC-N\LGR/mak/m/n/10.95 , \T1/mak/m/n/10.95 encoder--decoder \LGR/mak/m/n/10.95 kai \T1/mak/m/n/10.95 U-shaped 
  []
 
+[13
 
-
-[9]
-
+]
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 103.
+(Font)              scaled to size 8.09995pt on input line 176.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 103.
-[10])
+(Font)              scaled to size 8.09995pt on input line 176.
+Package babel Info: 'greek' activates 'greek' shorthands.
+(babel)             Reported on input line 176.
+ [14])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
+ [15] (./main.loi)
+\tf@loi=\write5
+\openout5 = `main.loi'.
 
-
-[11]
-
-[12
-
-] (./main.lof)
-\tf@lof=\write5
-\openout5 = `main.lof'.
-
-
-
-[13]
-
-[14
-
-] (./main.loi)
-\tf@loi=\write6
-\openout6 = `main.loi'.
-
-
-
-[15]
-
-[16
+ [16
 
 ] (./main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
+\tf@lot=\write6
+\openout6 = `main.lot'.
 
+ [17
 
-
-[17]
+]
 \openout2 = `front_matter/preface.aux'.
 
- (./front_matter/preface.tex
-
-[18
-
-
-])
-
-[19]
-\openout2 = `body_matter/intro.aux'.
-
- (./body_matter/intro.tex
-
-[20
-
-
+ (./front_matter/preface.tex) [18
 
 
 ]
+\openout2 = `body_matter/intro.aux'.
+
+ (./body_matter/intro.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  1.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
 (Font)              scaled to size 22.39185pt on input line 2.
@@ -1607,77 +1634,127 @@ Package lettrine.sty Info: Targeted height = 21.27205pt
 (lettrine.sty)             Lettrine height = 27.65382pt (\color {gray!50!brown!70!black}\scalebox {1.3}{Œó});
 (lettrine.sty)             reported on input line 5.
 
-
-[21]
-Overfull \hbox (0.5372pt too wide) in paragraph at lines 71--73
-\LGR/mak/m/n/10.95 deushc/beltistopo–hshc (p.q. bel-ti-sto-poi-h-tËc, []\T1/mak/m/n/10.95 learn-ing rate sched-ulers[]\LGR/mak/m/n/10.95 , kanonikopo–-
+Overfull \hbox (5.37491pt too wide) in paragraph at lines 21--29
+\LGR/mak/b/n/10.95 matopo–hsh plako‘n-ta \LGR/mak/m/n/10.95 se de-domË-na \T1/mak/m/n/10.95 M-RI \LGR/mak/m/n/10.95 epitrËpei epanal†y-imec kai an-tikeimenikËc metr†-
  []
 
 
+Overfull \hbox (18.31136pt too wide) in paragraph at lines 21--29
+\LGR/mak/m/n/10.95 kai jËsh. Pro-genËsterec pros-eg-g–-se-ic per-ilàm-banan k-lasiko‘c tax-i-nomhtËc † elàqista/merik∏c
+ []
 
-[22])
+[19
 
-[23]
-
-[24
 
 
 
 ]
+Overfull \hbox (18.23657pt too wide) in paragraph at lines 43--48
+\LGR/mak/b/n/10.95 lopo–hsh kai sug-kri-tik† ax-i-olÏghsh \LGR/mak/m/n/10.95 mon-tËl-wn tmh-matopo–hshc plako‘n-ta apÏ ogkometrikà
+ []
+
+
+Overfull \hbox (16.74557pt too wide) in paragraph at lines 69--70
+\LGR/mak/m/n/10.95 ax-i-olÏghsh tou plako‘n-ta se \T1/mak/m/n/10.95 M-RI\LGR/mak/m/n/10.95 : sunop-tikà s-toiqe–a anatom–ac/anàptuxhc/leitourgi∏n
+ []
+
+
+Overfull \hbox (0.5372pt too wide) in paragraph at lines 71--73
+\LGR/mak/m/n/10.95 deushc/beltistopo–hshc (p.q. beltistopoi-htËc, \T1/mak/m/n/10.95 learn-ing rate sched-uler-s\LGR/mak/m/n/10.95 , kanonikopo–-
+ []
+
+[20]
+Overfull \hbox (0.68707pt too wide) in paragraph at lines 73--74
+\LGR/mak/m/n/10.95 mopoi†jhkan (\T1/mak/m/n/10.95 UN-et, Dy-nUNet, Seg-Res-Net, At-ten-tio-nUnet, UN-ETR, Swi-n-UNETR, Seg-
+ []
+
+) [21]
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 275.
+(Font)              scaled to size 22.39185pt on input line 295.
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 20.82425pt on input line 275.
+(Font)              scaled to size 20.82425pt on input line 295.
+ [22
 
 
-[25]
 
-[26]
+]
 \openout2 = `body_matter/chap2.aux'.
 
  (./body_matter/chap2.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  2.
+
+Overfull \hbox (15.18884pt too wide) in paragraph at lines 2--2
+\LGR/mak/b/n/19.28804 Tmh-matopo–hsh I-a-trik∏n EikÏn-wn kai Magn-htik†
+ []
+
 Package lettrine.sty Info: Targeted height = 21.27205pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 28.66905pt (\color {gray!50!brown!70!black}\scalebox {1.3}{Œü});
 (lettrine.sty)             reported on input line 4.
 
+Overfull \hbox (1.42322pt too wide) in paragraph at lines 26--27
+[]\LGR/mak/m/n/10.95 o \LGR/mak/b/n/10.95 mesolàqnioc q∏roc \LGR/mak/m/n/10.95 (\T1/mak/m/n/10.95 in-ter-vil-lous s-pace\LGR/mak/m/n/10.95 ), Ïpou kuklo-fore– mhtrikÏ a–-ma, di-aqwr–ze-
+ []
 
-[27
+[23
 
 
 ]
 Overfull \hbox (2.48936pt too wide) in paragraph at lines 31--35
-\LGR/mak/b/n/10.95 spei-roei-d∏n ar-th-ri-∏n\LGR/mak/m/n/10.95 , mËsw ei-sbo-l†c e-xw-làqniwn tro-fo-blàstwn ([]\T1/mak/m/n/10.95 ex-trav-il-lous -trophoblast[]\LGR/mak/m/n/10.95 )
+\LGR/mak/b/n/10.95 speiroei-d∏n arthri∏n\LGR/mak/m/n/10.95 , mËsw eis-bol†c exwlàqni-wn tro-foblàst-wn (\T1/mak/m/n/10.95 ex-trav-il-lous -trophoblast\LGR/mak/m/n/10.95 )
  []
 
 
+Overfull \hbox (8.24301pt too wide) in paragraph at lines 62--64
+[]\LGR/mak/m/n/10.95 H \LGR/mak/b/n/10.95 màs-ka tmh-matopo–hshc \LGR/mak/m/n/10.95 (\T1/mak/m/n/10.95 seg-men-ta-tion mask\LGR/mak/m/n/10.95 ) e–-nai mi-a eikÏ-na/Ïgkoc \LGR/mak/m/it/10.95 –di-wn di-astàsewn
+ []
 
-[28{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-<figures/First Slice along segmentation and 3D view.png, id=447, 1187.43625pt x 431.6125pt>
+
+Overfull \hbox (4.17287pt too wide) in paragraph at lines 65--66
+[]\LGR/mak/m/n/10.95 H tmh-matopo–hsh di-afËrei apÏ thn tax-inÏmhsh eikÏnac \T1/mak/m/n/10.95 (Im-age Clas-si-fi-ca-tion) \LGR/mak/m/n/10.95 s-to gegonÏc
+ []
+
+[24{/Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/kerkis/kmath.enc}{/Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+<figures/First Slice along segmentation and 3D view.png, id=415, 1187.43625pt x 431.6125pt>
 File: figures/First Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/First Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/First Slice along segmentation and 3D view.png  used on input line 88.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Second Slice along segmentation and 3D view.png, id=449, 1187.43625pt x 431.6125pt>
+<figures/Second Slice along segmentation and 3D view.png, id=417, 1187.43625pt x 431.6125pt>
 File: figures/Second Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Second Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Second Slice along segmentation and 3D view.png  used on input line 89.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
-<figures/Third Slice along segmentation and 3D view.png, id=450, 1187.43625pt x 431.6125pt>
+<figures/Third Slice along segmentation and 3D view.png, id=418, 1187.43625pt x 431.6125pt>
 File: figures/Third Slice along segmentation and 3D view.png Graphic file (type png)
 <use figures/Third Slice along segmentation and 3D view.png>
 Package pdftex.def Info: figures/Third Slice along segmentation and 3D view.png  used on input line 90.
 (pdftex.def)             Requested size: 341.43436pt x 124.10408pt.
+Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 92.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
 (Font)              scaled to size 9.85492pt on input line 92.
 
+Overfull \hbox (1.99496pt too wide) in paragraph at lines 105--111
+[]\LGR/mak/m/n/10.95 H Magn-htik† To-mo-graf–a (\T1/mak/m/n/10.95 Mag-net-ic Res-o-nance Imag-ing, M-RI\LGR/mak/m/n/10.95 ) e–-nai teqnik† apeikÏnishc
+ []
 
-[29]
 
-[30 <./figures/First Slice along segmentation and 3D view.png> <./figures/Second Slice along segmentation and 3D view.png> <./figures/Third Slice along segmentation and 3D view.png>]
+Overfull \hbox (14.62106pt too wide) in paragraph at lines 112--116
+[]\LGR/mak/m/n/10.95 Gia thn tmh-matopo–hsh, h magn-htik† parousiàzei pleonek-t†-ma-ta (uyh-l† an-t–-jesh malak∏n
+ []
+
+
+Overfull \hbox (3.37044pt too wide) in paragraph at lines 112--116
+\LGR/mak/m/n/10.95 ist∏n, \T1/mak/m/n/10.95 3D \LGR/mak/m/n/10.95 plhro-for–a), al-là kai prokl†-se-ic: jÏrubo, anomoiogËneiec Ën-tashc, kai metabolËc
+ []
+
+[25] [26 <./figures/First Slice along segmentation and 3D view.png> <./figures/Second Slice along segmentation and 3D view.png> <./figures/Third Slice along segmentation and 3D view.png>]
+Overfull \hbox (98.45363pt too wide) in paragraph at lines 134--135
+[]\LGR/mak/b/n/10.95 EmploutismÏc de-domËn-wn \LGR/mak/m/n/10.95 (\T1/mak/m/n/10.95 aug-men-ta-tion\LGR/mak/m/n/10.95 ) me tuqa–ec peri-strofËc/antistrofËc/paramorf∏seic/jÏrubo. 
+ []
+
 LaTeX Font Info:    Trying to load font information for T1+txr on input line 151.
- (/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/txfonts/t1txr.fd
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `LGR/mak/m/n' will be
@@ -1688,219 +1765,256 @@ LaTeX Font Info:    Font shape `OML/mak/m/it' will be
 (Font)              scaled to size 4.49997pt on input line 152.
 LaTeX Font Info:    Font shape `T1/mak/m/n' will be
 (Font)              scaled to size 4.49997pt on input line 152.
-)
 
-[31]
+Overfull \hbox (5.56886pt too wide) in paragraph at lines 160--162
+\LGR/mak/m/n/10.95 Kai ed∏ oi timËc e–-nai s-to $\OT1/txr/m/n/10.95 [\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 . Oi d‘o metrikËc sqet–-zon-tai mono-tonikà kai suqnà anafËrontai
+ []
+
+) [27]
 \openout2 = `body_matter/chap3.aux'.
 
  (./body_matter/chap3.tex
-
-[32
-
-
-
-
-]
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  3.
+
+Overfull \hbox (12.9148pt too wide) in paragraph at lines 2--2
+\LGR/mak/b/n/19.28804 Mhqanik† Màjhsh kai S‘gqronec Ar-qitek-tonikËc
+ []
+
 Package lettrine.sty Info: Targeted height = 21.27205pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 27.65382pt (\color {gray!50!brown!70!black}\scalebox {1.3}{Œó});
 (lettrine.sty)             reported on input line 5.
-
-
-[33]
-Overfull \hbox (15.64127pt too wide) in paragraph at lines 54--54
-|[]\LGR/mak/b/n/12 ArqitektonikËc pu-kn†c prÏble-yhc: []\T1/mak/b/n/12 FCN[]\LGR/mak/b/n/12 , []\T1/mak/b/n/12 encoder--decoder []\LGR/mak/b/n/12 kai []\T1/mak/b/n/12 U-shaped
- []
-
-
-
-[34]
-Overfull \hbox (7.89902pt too wide) in paragraph at lines 94--98
-[]\LGR/mak/m/n/10.95 Oi []\T1/mak/m/n/10.95 Trans-form-ers []\LGR/mak/m/n/10.95 ei-s†qjh-san wc ar-qi-te-kto-ni-k† a-ko-lou-ji-∏n me mh-qa-ni-smÏ \LGR/mak/b/n/10.95 auto-prosoq†c
- []
-
-
-
-[35]
-Overfull \hbox (6.47774pt too wide) in paragraph at lines 127--131
-[]\LGR/mak/b/n/10.95 Prosegg–seic upo-tetragwnik†c pro-so-q†c\LGR/mak/m/n/10.95 : p.q. qa-mh-lÏbaj-mh pro-bo-l† ([]\T1/mak/m/n/10.95 Lin-former[]\LGR/mak/m/n/10.95 )
- []
-
-
-Overfull \hbox (23.17595pt too wide) in paragraph at lines 145--145
-|[]\LGR/mak/b/n/14.4 MontËla Q∏rou Ka-ta-stàse-wn ([]\T1/mak/b/n/14.4 State Space Mod-els[]\LGR/mak/b/n/14.4 ) kai []\T1/mak/b/n/14.4 Mamba| 
- []
-
-
-
-[36]
-
-LaTeX Warning: Command \textOmicron invalid in math mode on input line 185.
-
-
-Underfull \vbox (badness 3219) has occurred while \output is active []
-
-
-
-[37]
-
-[38])
-
-[39]
-\openout2 = `body_matter/chap4.aux'.
-
- (./body_matter/chap4.tex
-
-[40
+[28
 
 
 
 
 ]
+Overfull \hbox (15.64127pt too wide) in paragraph at lines 54--54
+|[]\LGR/mak/b/n/12 ArqitektonikËc pukn†c prÏb-ley-hc: \T1/mak/b/n/12 FC-N\LGR/mak/b/n/12 , \T1/mak/b/n/12 encoder--decoder \LGR/mak/b/n/12 kai \T1/mak/b/n/12 U-shaped
+ []
+
+[29]
+Overfull \hbox (58.01385pt too wide) in paragraph at lines 87--90
+\LGR/mak/m/n/10.95 di-a-jËsimh: oi makrinËc qwrikËc susqet–-se-ic mon-telopoio‘n-tai Ëmme-sa mËsw bàjouc/upodeigmatolhyi∏n,
+ []
+
+
+Overfull \hbox (7.89902pt too wide) in paragraph at lines 94--98
+[]\LGR/mak/m/n/10.95 Oi \T1/mak/m/n/10.95 Trans-form-er-s \LGR/mak/m/n/10.95 eis†qjh-san wc ar-qitek-tonik† akolou-ji∏n me mhqanis-mÏ \LGR/mak/b/n/10.95 auto-prosoq†c
+ []
+
+[30]
+Overfull \hbox (6.47774pt too wide) in paragraph at lines 127--131
+[]\LGR/mak/b/n/10.95 Prosegg–seic upo-tetragwnik†c proso-q†c\LGR/mak/m/n/10.95 : p.q. qamh-lÏba-jmh probol† (\T1/mak/m/n/10.95 Lin-former\LGR/mak/m/n/10.95 )
+ []
+
+
+Overfull \hbox (12.54883pt too wide) in paragraph at lines 145--145
+|[]\LGR/mak/b/n/14.4 MontËla Q∏rou Katastàsewn (\T1/mak/b/n/14.4 S-tate S-pace Mod-el-s\LGR/mak/b/n/14.4 ) kai \T1/mak/b/n/14.4 Mam-
+ []
+
+[31]
+
+LaTeX Warning: Command \textOmicron invalid in math mode on input line 185.
+
+
+Underfull \vbox (badness 1122) has occurred while \output is active []
+
+ [32]
+Overfull \hbox (3.70848pt too wide) in paragraph at lines 238--242
+\LGR/mak/m/n/10.95 H a-pos‘n-desh aut† ka-jistà th r‘jmish tou \T1/mak/m/n/10.95 weight de-cay \LGR/mak/m/n/10.95 pi-o prob-lËy-imh wc u-p-er-paràmetro
+ []
+
+[33]) [34]
+\openout2 = `body_matter/chap4.aux'.
+
+ (./body_matter/chap4.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  4.
 Package lettrine.sty Info: Targeted height = 21.27205pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 27.65382pt (\color {gray!50!brown!70!black}\scalebox {1.3}{Œ£});
 (lettrine.sty)             reported on input line 6.
 
-
-[41]
-<figures/u-net-architecture.png, id=610, 1560.83125pt x 1039.885pt>
-File: figures/u-net-architecture.png Graphic file (type png)
-<use figures/u-net-architecture.png>
-Package pdftex.def Info: figures/u-net-architecture.png  used on input line 70.
-(pdftex.def)             Requested size: 298.75262pt x 199.04pt.
-
-
-[42 <./figures/u-net-architecture.png>]
-<./figures/Res connection.png, id=620, 221.82875pt x 139.52126pt>
-File: ./figures/Res connection.png Graphic file (type png)
-<use ./figures/Res connection.png>
-Package pdftex.def Info: ./figures/Res connection.png  used on input line 107.
-(pdftex.def)             Requested size: 170.71393pt x 107.37207pt.
-<./figures/AttUNET attention gate.png, id=627, 871.255pt x 254.9525pt>
-File: ./figures/AttUNET attention gate.png Graphic file (type png)
-<use ./figures/AttUNET attention gate.png>
-Package pdftex.def Info: ./figures/AttUNET attention gate.png  used on input line 126.
-(pdftex.def)             Requested size: 256.0774pt x 74.93411pt.
-
-
-[43 <./figures/Res connection.png>]
-<./figures/swin vs vit.png, id=640, 702.625pt x 367.3725pt>
-File: ./figures/swin vs vit.png Graphic file (type png)
-<use ./figures/swin vs vit.png>
-Package pdftex.def Info: ./figures/swin vs vit.png  used on input line 157.
-(pdftex.def)             Requested size: 170.71393pt x 89.25868pt.
-
-
-[44 <./figures/AttUNET attention gate.png> <./figures/swin vs vit.png>]
-Overfull \hbox (5.02042pt too wide) in paragraph at lines 169--176
-[]\LGR/mak/m/n/10.95 To []\T1/mak/m/n/10.95 Seg-Mamba []\LGR/mak/m/n/10.95 pro-te-–nei mia []\T1/mak/m/n/10.95 3D []\LGR/mak/m/n/10.95 ar-qi-te-kto-ni-k† tmh-ma-to-po-–h-shc pou en-sw-ma-t∏nei []\T1/mak/m/n/10.95 Mamba[]\LGR/mak/m/n/10.95 -
+Overfull \hbox (4.51848pt too wide) in paragraph at lines 14--18
+\LGR/mak/m/n/10.95 pla–-sio pou s-to-qe‘ei sth dieukÏlun-sh anàp-tux-hc kai ax-i-olÏghshc mon-tËl-wn Ba-jiàc Màjhshc
  []
 
 
-Overfull \hbox (5.82741pt too wide) in paragraph at lines 178--184
-[] []\LGR/mak/b/n/10.95 Sh-me-–w-sh u-lo-po-–h-shc.[] \LGR/mak/m/n/10.95 Se a-nt–je-sh me ta u-pÏloi-pa mo-ntËla pou pro-Ër-qo-ntai a-pÏ []\T1/mak/m/n/10.95 MONAI[]\LGR/mak/m/n/10.95 ,
+Overfull \hbox (30.77014pt too wide) in paragraph at lines 21--24
+[]\LGR/mak/b/n/10.95 'Etoimec ar-qitek-tonikËc \LGR/mak/m/n/10.95 tmh-matopo–hshc kai \T1/mak/m/n/10.95 build-ing block-s \LGR/mak/m/n/10.95 (sune-lik-tikà/upoleimmatikà
  []
 
 
-Overfull \hbox (12.78792pt too wide) in paragraph at lines 199--200
-[][]\T1/mak/b/n/10.95 Transformer-based[]\LGR/mak/m/n/10.95 : i-squ-rÏ []\T1/mak/m/n/10.95 global con-text[]\LGR/mak/m/n/10.95 , al-là au-xh-mËnec a-pai-t†seic mn†mh-c/qrÏnou. 
+Overfull \hbox (2.73883pt too wide) in paragraph at lines 24--26
+[]\LGR/mak/b/n/10.95 Ap∏leiec kai metrikËc \LGR/mak/m/n/10.95 (p.q. \T1/mak/m/n/10.95 Dice-based loss-es \LGR/mak/m/n/10.95 kai \T1/mak/m/n/10.95 Dice/IoU \LGR/mak/m/n/10.95 metrikËc) kai tupopoih-
  []
 
 
-Overfull \hbox (0.61713pt too wide) in paragraph at lines 200--201
-[][]\T1/mak/b/n/10.95 SSM/Mamba-based[]\LGR/mak/m/n/10.95 : stÏqoc h ma-kri-n†c em-bËleiac mo-nte-lo-po-–h-sh me ka-l‘te-rh klimà-
+Overfull \hbox (0.42671pt too wide) in paragraph at lines 29--34
+\LGR/mak/m/n/10.95 H qr†sh tou \T1/mak/m/n/10.95 MON-AI \LGR/mak/m/n/10.95 epitrËpei pi-o \LGR/mak/b/n/10.95 ana-parag∏gi-mo \LGR/mak/m/n/10.95 kai \LGR/mak/b/n/10.95 sug-kr–si-mo \LGR/mak/m/n/10.95 peira-matikÏ prwtÏkol-
  []
 
-)
 
-[45]
+Overfull \hbox (8.08197pt too wide) in paragraph at lines 39--45
+\LGR/mak/m/n/10.95 enswmat∏ne-tai mËsw thc \LGR/mak/b/n/10.95 ep–shmhc u-lopo–hshc twn sug-grafËwn \LGR/mak/m/n/10.95 [[], []]. Gi-a na diathrhje–
+ []
 
-[46
+[35
+
 
 
 
 ]
+<figures/u-net-architecture.png, id=569, 1560.83125pt x 1039.885pt>
+File: figures/u-net-architecture.png Graphic file (type png)
+<use figures/u-net-architecture.png>
+Package pdftex.def Info: figures/u-net-architecture.png  used on input line 70.
+(pdftex.def)             Requested size: 298.75262pt x 199.04pt.
+ [36 <./figures/u-net-architecture.png>]
+<./figures/Res connection.png, id=581, 221.82875pt x 139.52126pt>
+File: ./figures/Res connection.png Graphic file (type png)
+<use ./figures/Res connection.png>
+Package pdftex.def Info: ./figures/Res connection.png  used on input line 107.
+(pdftex.def)             Requested size: 170.71393pt x 107.37207pt.
+<./figures/AttUNET attention gate.png, id=588, 871.255pt x 254.9525pt>
+File: ./figures/AttUNET attention gate.png Graphic file (type png)
+<use ./figures/AttUNET attention gate.png>
+Package pdftex.def Info: ./figures/AttUNET attention gate.png  used on input line 133.
+(pdftex.def)             Requested size: 256.0774pt x 74.93411pt.
 
-[47]
 
-[48]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./figures/Res connection.png>]
+<./figures/swin vs vit.png, id=604, 702.625pt x 367.3725pt>
+File: ./figures/swin vs vit.png Graphic file (type png)
+<use ./figures/swin vs vit.png>
+Package pdftex.def Info: ./figures/swin vs vit.png  used on input line 164.
+(pdftex.def)             Requested size: 170.71393pt x 89.25868pt.
+ [38 <./figures/AttUNET attention gate.png> <./figures/swin vs vit.png>]
+Overfull \hbox (5.02042pt too wide) in paragraph at lines 176--183
+[]\LGR/mak/m/n/10.95 To \T1/mak/m/n/10.95 Seg-Mam-ba \LGR/mak/m/n/10.95 pro-te–nei mi-a \T1/mak/m/n/10.95 3D \LGR/mak/m/n/10.95 ar-qitek-tonik† tmh-matopo–hshc pou enswmat∏nei \T1/mak/m/n/10.95 Mamba\LGR/mak/m/n/10.95 -
+ []
+
+
+Overfull \hbox (12.78792pt too wide) in paragraph at lines 206--207
+[]\T1/mak/b/n/10.95 Transformer-based\LGR/mak/m/n/10.95 : isqurÏ \T1/mak/m/n/10.95 glob-al con-tex-t\LGR/mak/m/n/10.95 , al-là auxh-mËnec a-pait†-se-ic m-n†mhc/qrÏnou. 
+ []
+
+
+Overfull \hbox (0.61713pt too wide) in paragraph at lines 207--208
+[]\T1/mak/b/n/10.95 SSM/Mamba-based\LGR/mak/m/n/10.95 : stÏqoc h makrin†c em-bËleiac mon-telopo–hsh me kal‘ter-h klimà-
+ []
+
+) [39] [40
+
+
+
+]
 \openout2 = `body_matter/chap5.aux'.
 
  (./body_matter/chap5.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  5.
 
-Underfull \vbox (badness 3428) has occurred while \output is active []
+Overfull \hbox (7.58557pt too wide) in paragraph at lines 1--1
+\LGR/mak/b/n/19.28804 Peira-matikÏ PrwtÏkol-lo kai Mejodolog–a Axio-
+ []
 
 
+Overfull \hbox (16.3611pt too wide) in paragraph at lines 8--20
+\LGR/mak/m/n/10.95 seic (\T1/mak/m/n/10.95 Seg-Res-Net\LGR/mak/m/n/10.95 ) [[]]. TËloc, ax-i-olog†jhkan neÏterec pros-eg-g–-se-ic pou mon-telopoio‘n makrinËc
+ []
 
-[49
+
+Overfull \hbox (14.10533pt too wide) in paragraph at lines 33--39
+\LGR/mak/m/n/10.95 afore-tik∏n ar-qitek-tonik∏n sth tmh-matopo–hsh plako‘n-ta se \T1/mak/m/n/10.95 3D M-RI\LGR/mak/m/n/10.95 . H s‘gkr-ish sqediàsthke
+ []
+
+[41
 
 
 ]
-Overfull \hbox (5.32686pt too wide) in paragraph at lines 55--61
-[]\LGR/mak/m/n/10.95 Oi e-kte-lËseic prag-ma-to-poi-†jh-kan wc []\T1/mak/m/it/10.95 non-interactive runs []\LGR/mak/m/n/10.95 (me ka-ta-gra-f† []\T1/mak/m/n/10.95 logs[]\LGR/mak/m/n/10.95 /metrik∏n),
+Overfull \hbox (31.59511pt too wide) in paragraph at lines 55--61
+[]\LGR/mak/m/n/10.95 Oi ek-telË-se-ic prag-matopoi†jhkan wc \T1/mak/m/it/10.95 non-interactive \LGR/mak/m/it/10.95 peirà-ma-ta \LGR/mak/m/n/10.95 (me kata-graf† \T1/mak/m/n/10.95 logs\LGR/mak/m/n/10.95 /metrik∏n),
  []
 
 LaTeX Font Info:    Trying to load font information for T1+fvm on input line 66.
-(/opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/tex/latex/bera/t1fvm.fd
+(/Users/gregtsen/Library/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.2125pt on input line 66.
-
-
-[50]
-Overfull \hbox (5.8143pt too wide) in paragraph at lines 113--117
-[]\LGR/mak/b/n/10.95 Anadeigmatolhy–a ([]\T1/mak/b/n/10.95 Spac-ing[]\LGR/mak/b/n/10.95 ): \LGR/mak/m/n/10.95 me-ta-sqh-ma-ti-smÏc se koi-nÏ []\T1/mak/m/n/10.95 voxel spac-ing ($\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OT1/txr/m/n/10.95 )$
+ [42]
+Overfull \hbox (5.8143pt too wide) in paragraph at lines 118--122
+[]\LGR/mak/b/n/10.95 Anadeigmatolhy–a (\T1/mak/b/n/10.95 S-pac-ing\LGR/mak/b/n/10.95 ): \LGR/mak/m/n/10.95 metasqh-ma-tismÏc se koinÏ \T1/mak/m/n/10.95 vox-el s-pac-ing ($\OT1/txr/m/n/10.95 (\T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 0\OT1/txr/m/n/10.95 )$
  []
 
 
-Overfull \hbox (0.82108pt too wide) in paragraph at lines 120--123
-[]\LGR/mak/m/n/10.95 EfarmÏzetai ka-no-ni-ko-po-–h-sh me []\T1/mak/m/n/10.95 per-centiles []\LGR/mak/m/n/10.95 (p.q. 2.0-99.9) kai qar-to-gràfh-sh sto $\OT1/txr/m/n/10.95 [\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 .
+Overfull \hbox (0.82108pt too wide) in paragraph at lines 125--128
+[]\LGR/mak/m/n/10.95 EfarmÏzetai kanon-ikopo–hsh me \T1/mak/m/n/10.95 per-centiles \LGR/mak/m/n/10.95 (p.q. 2.0-99.9) kai qar-togràfhsh s-to $\OT1/txr/m/n/10.95 [\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 .
+ []
+
+[43]
+Overfull \hbox (2.3507pt too wide) in paragraph at lines 149--151
+[]\LGR/mak/m/n/10.95 LÏgw tou megËjouc twn \T1/mak/m/n/10.95 3D \LGR/mak/m/n/10.95 Ïgk-wn kai pe-ri-or-is-m∏n m-n†mhc, h ek-pa–deush prag-matopoie–-
+ []
+
+[44]
+Overfull \hbox (15.05pt too wide) in paragraph at lines 230--232
+[]\T1/mak/m/n/10.95 SegResNet Heav-ier\LGR/mak/m/n/10.95 : \T1/mak/m/n/10.95 init_-filters$\OT1/txr/m/n/10.95 = \T1/mak/m/n/10.95 64$\LGR/mak/m/n/10.95 , \T1/mak/m/n/10.95 blocks_-down$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 4\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 , \T1/mak/m/n/10.95 blocks_-up$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 . 
  []
 
 
-
-[51]
-
-[52]
-Overfull \hbox (15.05pt too wide) in paragraph at lines 225--227
-[]\T1/mak/m/n/10.95 SegResNet Heav-ier[]\LGR/mak/m/n/10.95 : []\T1/mak/m/n/10.95 init_-filters$\OT1/txr/m/n/10.95 = \T1/mak/m/n/10.95 64$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-down$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 4\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-up$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 . 
+Overfull \hbox (12.68481pt too wide) in paragraph at lines 232--234
+[]\T1/mak/m/n/10.95 SegResNet Lighter\LGR/mak/m/n/10.95 : \T1/mak/m/n/10.95 init_-filters$\OT1/txr/m/n/10.95 = \T1/mak/m/n/10.95 32$\LGR/mak/m/n/10.95 , \T1/mak/m/n/10.95 blocks_-down$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 4\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 , \T1/mak/m/n/10.95 blocks_-up$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$\LGR/mak/m/n/10.95 . 
  []
 
-
-Overfull \hbox (12.68481pt too wide) in paragraph at lines 227--229
-[]\T1/mak/m/n/10.95 SegResNet Lighter[]\LGR/mak/m/n/10.95 : []\T1/mak/m/n/10.95 init_-filters$\OT1/txr/m/n/10.95 = \T1/mak/m/n/10.95 32$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-down$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 2\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 4\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 , []\T1/mak/m/n/10.95 blocks_-up$\OT1/txr/m/n/10.95 = [\T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OML/mak/m/it/10.95 ; \T1/mak/m/n/10.95 1\OT1/txr/m/n/10.95 ]$[]\LGR/mak/m/n/10.95 . 
+[45] [46]
+Overfull \hbox (6.95198pt too wide) in paragraph at lines 322--326
+[]\LGR/mak/m/n/10.95 Shmei∏netai Ïti s-ta di-a-gràm-ma-ta is-toriko‘ ek-pa–deushc apo-tup∏ne-tai o kuk-likÏc qarak-
  []
 
-
-
-[53]
-
-[54]
-
-[55])
+[47])
 \openout2 = `body_matter/chap6.aux'.
 
  (./body_matter/chap6.tex
+\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  6.
 
-[56
+Overfull \hbox (3.99648pt too wide) in paragraph at lines 9--14
+[]\LGR/mak/m/n/10.95 Pr∏ta, parat–-jen-tai ta posotikà apotelËs-ma-ta s-ta de-domË-na ax-i-olÏghshc mËsw metrik∏n
+ []
+
+[48
 
 
 
 
 
 ]
-\textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  6.
+Overfull \hbox (1.8469pt too wide) in paragraph at lines 66--76
+\T1/mak/m/n/10.95 IoU \LGR/mak/m/n/10.95 parathro‘n-tai ep–shc s-ta \T1/mak/m/n/10.95 Seg-Mam-ba Heav-ier \LGR/mak/m/n/10.95 ($\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 7566$\LGR/mak/m/n/10.95 ) kai \T1/mak/m/n/10.95 Seg-Res-Net Heav-ier \LGR/mak/m/n/10.95 ($\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 7558$\LGR/mak/m/n/10.95 ),
+ []
 
 
-[57]
+Overfull \hbox (1.2085pt too wide) in paragraph at lines 77--89
+[]\LGR/mak/m/n/10.95 Se ep–pe-do oiko-genei∏n ar-qitek-tonik†c, parathre–-tai Ïti oi apodotikËc \T1/mak/m/n/10.95 CNN-based \LGR/mak/m/n/10.95 pros-
+ []
 
-[58]
-<figures/history_attentionUnet.png, id=744, 940.4736pt x 548.5293pt>
+[49]
+Overfull \hbox (10.39017pt too wide) in paragraph at lines 109--112
+[] []\LGR/mak/b/n/10.95 Genik† eikÏ-na s‘gk-lishc.[] \LGR/mak/m/n/10.95 Se Ïlec tic \T1/mak/m/n/10.95 CNN\LGR/mak/m/n/10.95 -basismËnec ar-qitek-tonikËc parathre–-tai \LGR/mak/b/n/10.95 taqe–a
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbhp') on input line 114.
+
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 115.
+
+<figures/history_attentionUnet.png, id=699, 940.4736pt x 548.5293pt>
 File: figures/history_attentionUnet.png Graphic file (type png)
 <use figures/history_attentionUnet.png>
 Package pdftex.def Info: figures/history_attentionUnet.png  used on input line 117.
@@ -1909,250 +2023,285 @@ LaTeX Font Info:    Font shape `LGR/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 118.
 LaTeX Font Info:    Font shape `T1/mak/m/it' will be
 (Font)              scaled to size 8.99994pt on input line 118.
-<figures/history_dynunet.png, id=745, 945.7734pt x 548.2884pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 121.
+
+<figures/history_dynunet.png, id=700, 945.7734pt x 548.2884pt>
 File: figures/history_dynunet.png Graphic file (type png)
 <use figures/history_dynunet.png>
 Package pdftex.def Info: figures/history_dynunet.png  used on input line 123.
 (pdftex.def)             Requested size: 192.0548pt x 111.33734pt.
-<figures/history_SwinUNETR_HEAVIER.png, id=746, 935.1738pt x 547.3248pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 127.
+
+<figures/history_SwinUNETR_HEAVIER.png, id=701, 935.1738pt x 547.3248pt>
 File: figures/history_SwinUNETR_HEAVIER.png Graphic file (type png)
 <use figures/history_SwinUNETR_HEAVIER.png>
 Package pdftex.def Info: figures/history_SwinUNETR_HEAVIER.png  used on input line 129.
 (pdftex.def)             Requested size: 192.0548pt x 112.40274pt.
-<figures/history_SwinUNETR_LIGHTER.png, id=747, 947.9415pt x 547.8066pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 133.
+
+<figures/history_SwinUNETR_LIGHTER.png, id=702, 947.9415pt x 547.8066pt>
 File: figures/history_SwinUNETR_LIGHTER.png Graphic file (type png)
 <use figures/history_SwinUNETR_LIGHTER.png>
 Package pdftex.def Info: figures/history_SwinUNETR_LIGHTER.png  used on input line 135.
 (pdftex.def)             Requested size: 192.0548pt x 110.98038pt.
-<figures/history_segresLight.png, id=748, 938.5464pt x 569.4876pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbhp') on input line 143.
+
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 144.
+
+<figures/history_segresLight.png, id=703, 938.5464pt x 569.4876pt>
 File: figures/history_segresLight.png Graphic file (type png)
 <use figures/history_segresLight.png>
 Package pdftex.def Info: figures/history_segresLight.png  used on input line 145.
 (pdftex.def)             Requested size: 192.0548pt x 116.52847pt.
-<figures/history_segresHeavy.png, id=749, 939.51pt x 570.933pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 149.
+
+<figures/history_segresHeavy.png, id=704, 939.51pt x 570.933pt>
 File: figures/history_segresHeavy.png Graphic file (type png)
 <use figures/history_segresHeavy.png>
 Package pdftex.def Info: figures/history_segresHeavy.png  used on input line 150.
 (pdftex.def)             Requested size: 192.0548pt x 116.71097pt.
-<figures/history_UNET.png, id=750, 1005.0348pt x 575.9919pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 154.
+
+<figures/history_UNET.png, id=705, 1005.0348pt x 575.9919pt>
 File: figures/history_UNET.png Graphic file (type png)
 <use figures/history_UNET.png>
 Package pdftex.def Info: figures/history_UNET.png  used on input line 155.
 (pdftex.def)             Requested size: 192.0548pt x 110.0636pt.
-<figures/history_UNETR.png, id=751, 933.7284pt x 567.0786pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbhp') on input line 164.
+
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 165.
+
+<figures/history_UNETR.png, id=706, 933.7284pt x 567.0786pt>
 File: figures/history_UNETR.png Graphic file (type png)
 <use figures/history_UNETR.png>
 Package pdftex.def Info: figures/history_UNETR.png  used on input line 166.
 (pdftex.def)             Requested size: 192.0548pt x 116.63258pt.
-<figures/history_segmambaheavy.png, id=752, 938.0646pt x 572.6193pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 170.
+
+<figures/history_segmambaheavy.png, id=707, 938.0646pt x 572.6193pt>
 File: figures/history_segmambaheavy.png Graphic file (type png)
 <use figures/history_segmambaheavy.png>
 Package pdftex.def Info: figures/history_segmambaheavy.png  used on input line 171.
 (pdftex.def)             Requested size: 192.0548pt x 117.23044pt.
-<figures/history_segmamba.png, id=753, 943.3644pt x 570.933pt>
+
+Package subcaption Warning: `subfigure' is treated as `subillustration'
+(subcaption)                 on input line 175.
+
+<figures/history_segmamba.png, id=708, 943.3644pt x 570.933pt>
 File: figures/history_segmamba.png Graphic file (type png)
 <use figures/history_segmamba.png>
 Package pdftex.def Info: figures/history_segmamba.png  used on input line 176.
 (pdftex.def)             Requested size: 192.0548pt x 116.23183pt.
 
+Overfull \hbox (7.7777pt too wide) in paragraph at lines 192--201
+[] []\T1/mak/b/n/10.95 Trans-former-based \LGR/mak/b/n/10.95 sumper-i-forà.[] \LGR/mak/m/n/10.95 To \T1/mak/m/n/10.95 UN-ETR \LGR/mak/m/n/10.95 lei-tourge– wc \T1/mak/m/n/10.95 out-li-er\LGR/mak/m/n/10.95 , epitugqànon-tac qamh-
+ []
 
-[59 <./figures/history_attentionUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR_HEAVIER.png> <./figures/history_SwinUNETR_LIGHTER.png>]
+[50 <./figures/history_attentionUnet.png> <./figures/history_dynunet.png> <./figures/history_SwinUNETR_HEAVIER.png> <./figures/history_SwinUNETR_LIGHTER.png>] [51 <./figures/history_segresLight.png> <./figures/history_segresHeavy.png> <./figures/history_UNET.png> <./figures/history_UNETR.png> <./figures/history_segmambaheavy.png> <./figures/history_segmamba.png>]
+Overfull \hbox (12.49919pt too wide) in paragraph at lines 203--209
+[] []\LGR/mak/b/n/10.95 S-ta-jerÏth-ta kai gen–keush.[] \LGR/mak/m/n/10.95 Oi kam-p‘lec \T1/mak/m/n/10.95 train-ing \LGR/mak/m/n/10.95 kai \T1/mak/m/n/10.95 val-i-da-tion loss \LGR/mak/m/n/10.95 mei∏non-tai paràllh-
+ []
 
-[60 <./figures/history_segresLight.png> <./figures/history_segresHeavy.png> <./figures/history_UNET.png> <./figures/history_UNETR.png> <./figures/history_segmambaheavy.png> <./figures/history_segmamba.png>]
+[52]
+Overfull \hbox (13.67197pt too wide) in paragraph at lines 258--269
+[] []\T1/mak/b/n/10.95 Trans-former-based \LGR/mak/b/n/10.95 mon-tËla.[] \LGR/mak/m/n/10.95 Ta \T1/mak/m/n/10.95 Swi-n-UNETR Heav-ier/Lighter \LGR/mak/m/n/10.95 ([][]6.6[][], [][]6.7[][]) parà-goun sunepe–c
+ []
 
-[61]
-<figures/segmentation_masks_AttentionUnet.png, id=784, 828.79236pt x 502.13196pt>
+<figures/segmentation_masks_AttentionUnet.png, id=748, 828.79236pt x 502.13196pt>
 File: figures/segmentation_masks_AttentionUnet.png Graphic file (type png)
 <use figures/segmentation_masks_AttentionUnet.png>
-Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 290.
+Package pdftex.def Info: figures/segmentation_masks_AttentionUnet.png  used on input line 285.
 (pdftex.def)             Requested size: 290.21498pt x 175.82542pt.
-Package hyperref Info: bookmark level for unknown illustration defaults to 0 on input line 291.
-<figures/segmentation_masks_DynUNet.png, id=785, 818.38548pt x 500.68655pt>
+<figures/segmentation_masks_DynUNet.png, id=749, 818.38548pt x 500.68655pt>
 File: figures/segmentation_masks_DynUNet.png Graphic file (type png)
 <use figures/segmentation_masks_DynUNet.png>
-Package pdftex.def Info: figures/segmentation_masks_DynUNet.png  used on input line 297.
+Package pdftex.def Info: figures/segmentation_masks_DynUNet.png  used on input line 292.
 (pdftex.def)             Requested size: 290.21498pt x 177.55014pt.
-
-
-[62 <./figures/segmentation_masks_AttentionUnet.png>]
-<figures/segmentation_masks_SwinUNETR_HEAVIER.png, id=791, 825.61247pt x 505.31184pt>
-File: figures/segmentation_masks_SwinUNETR_HEAVIER.png Graphic file (type png)
-<use figures/segmentation_masks_SwinUNETR_HEAVIER.png>
-Package pdftex.def Info: figures/segmentation_masks_SwinUNETR_HEAVIER.png  used on input line 304.
-(pdftex.def)             Requested size: 290.21498pt x 177.62512pt.
-<figures/segmentation_masks_SwinUNETRlighter.png, id=792, 831.68317pt x 507.04633pt>
-File: figures/segmentation_masks_SwinUNETRlighter.png Graphic file (type png)
-<use figures/segmentation_masks_SwinUNETRlighter.png>
-Package pdftex.def Info: figures/segmentation_masks_SwinUNETRlighter.png  used on input line 311.
-(pdftex.def)             Requested size: 290.21498pt x 176.93501pt.
-<figures/segmentation_masks_SegResHeavy.png, id=793, 829.37051pt x 502.9992pt>
-File: figures/segmentation_masks_SegResHeavy.png Graphic file (type png)
-<use figures/segmentation_masks_SegResHeavy.png>
-Package pdftex.def Info: figures/segmentation_masks_SegResHeavy.png  used on input line 318.
-(pdftex.def)             Requested size: 290.21498pt x 176.01398pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_SegResLight.png, id=794, 825.03432pt x 506.17908pt>
+<figures/segmentation_masks_SwinUNETR_HEAVIER.png, id=750, 825.61247pt x 505.31184pt>
+File: figures/segmentation_masks_SwinUNETR_HEAVIER.png Graphic file (type png)
+<use figures/segmentation_masks_SwinUNETR_HEAVIER.png>
+Package pdftex.def Info: figures/segmentation_masks_SwinUNETR_HEAVIER.png  used on input line 299.
+(pdftex.def)             Requested size: 290.21498pt x 177.62512pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/segmentation_masks_SwinUNETRlighter.png, id=751, 831.68317pt x 507.04633pt>
+File: figures/segmentation_masks_SwinUNETRlighter.png Graphic file (type png)
+<use figures/segmentation_masks_SwinUNETRlighter.png>
+Package pdftex.def Info: figures/segmentation_masks_SwinUNETRlighter.png  used on input line 306.
+(pdftex.def)             Requested size: 290.21498pt x 176.93501pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/segmentation_masks_SegResLight.png, id=752, 825.03432pt x 506.17908pt>
 File: figures/segmentation_masks_SegResLight.png Graphic file (type png)
 <use figures/segmentation_masks_SegResLight.png>
-Package pdftex.def Info: figures/segmentation_masks_SegResLight.png  used on input line 324.
+Package pdftex.def Info: figures/segmentation_masks_SegResLight.png  used on input line 313.
 (pdftex.def)             Requested size: 290.21498pt x 178.05354pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_unet.png, id=795, 828.50328pt x 505.02277pt>
+<figures/segmentation_masks_SegResHeavy.png, id=753, 829.37051pt x 502.9992pt>
+File: figures/segmentation_masks_SegResHeavy.png Graphic file (type png)
+<use figures/segmentation_masks_SegResHeavy.png>
+Package pdftex.def Info: figures/segmentation_masks_SegResHeavy.png  used on input line 319.
+(pdftex.def)             Requested size: 290.21498pt x 176.01398pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/segmentation_masks_unet.png, id=754, 828.50328pt x 505.02277pt>
 File: figures/segmentation_masks_unet.png Graphic file (type png)
 <use figures/segmentation_masks_unet.png>
-Package pdftex.def Info: figures/segmentation_masks_unet.png  used on input line 330.
+Package pdftex.def Info: figures/segmentation_masks_unet.png  used on input line 325.
 (pdftex.def)             Requested size: 290.21498pt x 176.89932pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_UNETR.png, id=796, 818.96364pt x 511.38252pt>
+<figures/segmentation_masks_UNETR.png, id=755, 818.96364pt x 511.38252pt>
 File: figures/segmentation_masks_UNETR.png Graphic file (type png)
 <use figures/segmentation_masks_UNETR.png>
-Package pdftex.def Info: figures/segmentation_masks_UNETR.png  used on input line 339.
+Package pdftex.def Info: figures/segmentation_masks_UNETR.png  used on input line 334.
 (pdftex.def)             Requested size: 290.21498pt x 181.21823pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_segmambaHEAVY.png, id=797, 824.16708pt x 497.79576pt>
+<figures/segmentation_masks_segmambaHEAVY.png, id=756, 824.16708pt x 497.79576pt>
 File: figures/segmentation_masks_segmambaHEAVY.png Graphic file (type png)
 <use figures/segmentation_masks_segmambaHEAVY.png>
-Package pdftex.def Info: figures/segmentation_masks_segmambaHEAVY.png  used on input line 344.
+Package pdftex.def Info: figures/segmentation_masks_segmambaHEAVY.png  used on input line 339.
 (pdftex.def)             Requested size: 290.21498pt x 175.28693pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/segmentation_masks_segmambaLIGHT.png, id=798, 825.03432pt x 498.663pt>
+<figures/segmentation_masks_segmambaLIGHT.png, id=757, 825.03432pt x 498.663pt>
 File: figures/segmentation_masks_segmambaLIGHT.png Graphic file (type png)
 <use figures/segmentation_masks_segmambaLIGHT.png>
-Package pdftex.def Info: figures/segmentation_masks_segmambaLIGHT.png  used on input line 349.
+Package pdftex.def Info: figures/segmentation_masks_segmambaLIGHT.png  used on input line 344.
 (pdftex.def)             Requested size: 290.21498pt x 175.40968pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-
-[63 <./figures/segmentation_masks_DynUNet.png> <./figures/segmentation_masks_SwinUNETR_HEAVIER.png> <./figures/segmentation_masks_SwinUNETRlighter.png>]
-
-[64 <./figures/segmentation_masks_SegResHeavy.png> <./figures/segmentation_masks_SegResLight.png> <./figures/segmentation_masks_unet.png>]
-
-[65 <./figures/segmentation_masks_UNETR.png> <./figures/segmentation_masks_segmambaHEAVY.png> <./figures/segmentation_masks_segmambaLIGHT.png>]
+[53 <./figures/segmentation_masks_AttentionUnet.png>] [54 <./figures/segmentation_masks_DynUNet.png> <./figures/segmentation_masks_SwinUNETR_HEAVIER.png> <./figures/segmentation_masks_SwinUNETRlighter.png>] [55 <./figures/segmentation_masks_SegResLight.png> <./figures/segmentation_masks_SegResHeavy.png> <./figures/segmentation_masks_unet.png>] [56 <./figures/segmentation_masks_UNETR.png> <./figures/segmentation_masks_segmambaHEAVY.png> <./figures/segmentation_masks_segmambaLIGHT.png>]
 LaTeX Font Info:    Font shape `LGR/mak/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 377.
+(Font)              scaled to size 7.19995pt on input line 372.
 LaTeX Font Info:    Font shape `T1/mak/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 377.
+(Font)              scaled to size 7.19995pt on input line 372.
 
-Underfull \hbox (badness 1442) in paragraph at lines 389--390
-[]|\LGR/mak/m/n/8 Mhtrik† koi-lÏth-ta: []\T1/mak/m/n/8 DSC[]\LGR/mak/m/n/8 =0.92
+Underfull \hbox (badness 1442) in paragraph at lines 384--385
+[]|\LGR/mak/m/n/8 Mhtrik† koilÏth-ta: \T1/mak/m/n/8 D-SC\LGR/mak/m/n/8 =0.92
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 402--403
-[]|\LGR/mak/m/n/8 Mhtrik† koi-lÏth-ta: []\T1/mak/m/n/8 DSC[]\LGR/mak/m/n/8 =0.87
+Underfull \hbox (badness 1442) in paragraph at lines 397--398
+[]|\LGR/mak/m/n/8 Mhtrik† koilÏth-ta: \T1/mak/m/n/8 D-SC\LGR/mak/m/n/8 =0.87
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 []|\T1/mak/m/n/8 MRF--MAS vs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
 []|\T1/mak/m/n/8 PlaNet-S
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 412--413
-[]|\LGR/mak/m/n/8 1090 []\T1/mak/m/n/8 to-tal[]\LGR/mak/m/n/8 , 875 []\T1/mak/m/n/8 train[]\LGR/mak/m/n/8 -215
+Underfull \hbox (badness 1242) in paragraph at lines 407--408
+[]|\LGR/mak/m/n/8 1090 \T1/mak/m/n/8 to-tal\LGR/mak/m/n/8 , 875 \T1/mak/m/n/8 train\LGR/mak/m/n/8 -215
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
-[]|\T1/mak/m/n/8 U-Net IoU[]\LGR/mak/m/n/8 =0.73$\OMS/txsy/m/n/8 ^^F$\LGR/mak/m/n/8 0.13, []\T1/mak/m/n/8 DS-
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+[]|\T1/mak/m/n/8 U-Net IoU\LGR/mak/m/n/8 =0.73$\OMS/txsy/m/n/8 ^^F$\LGR/mak/m/n/8 0.13, \T1/mak/m/n/8 DS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
 []|\T1/mak/m/n/8 SegMamba
  []
 
 
-Overfull \hbox (67.67911pt too wide) in paragraph at lines 375--432
+Overfull \hbox (67.67911pt too wide) in paragraph at lines 370--427
  [][] 
  []
 
 
+Overfull \hbox (8.69012pt too wide) in paragraph at lines 448--463
+\LGR/mak/m/n/10.95 me pol‘ mikrËc metax‘ touc di-aforËc (per–pou $\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 002$\LGR/mak/m/n/10.95 --$\T1/mak/m/n/10.95 0\OML/mak/m/it/10.95 :\T1/mak/m/n/10.95 003$\LGR/mak/m/n/10.95 ). To \T1/mak/m/n/10.95 Swi-n-UNETR Heav-ier/Lighter
+ []
 
-[66
+[57
 
 ]
-Overfull \hbox (25.5745pt too wide) in paragraph at lines 509--523
-\LGR/mak/m/n/10.95 kàlu-yh. Au-tÏ pra-kti-kà sh-ma-–nei Ïti, se pe-ri-bàl-lo-nta me pe-rio-ri-smËnouc pÏrouc ([]\T1/mak/m/n/10.95 VRAM[]\LGR/mak/m/n/10.95 /qrÏnoc),
+Overfull \hbox (7.65053pt too wide) in paragraph at lines 472--483
+[] []\LGR/mak/b/n/10.95 Er-mh-ne–a u-p-er-o-q†c \T1/mak/b/n/10.95 C-N-N\LGR/mak/b/n/10.95 /\T1/mak/b/n/10.95 SSM \LGR/mak/b/n/10.95 pros-eg-g–sewn.[] \LGR/mak/m/n/10.95 An-ti-jËtwc, ta apotelËs-ma-ta up-odeikn‘oun
  []
 
 
+Overfull \hbox (3.78522pt too wide) in paragraph at lines 511--525
+\LGR/mak/m/n/10.95 shman-tik† jus–a akr–beiac. Ep–shc, parÏti to \T1/mak/m/n/10.95 Swi-n-UNETR \LGR/mak/m/n/10.95 (kai s-tic d‘o ek-do-qËc) epitugqànei
+ []
 
-[67])
 
-[68]
+Overfull \hbox (23.3315pt too wide) in paragraph at lines 511--525
+\LGR/mak/m/n/10.95 se megal‘-tero qrÏno à-na e-po-q† kai auxh-mËnec a-pait†-se-ic m-n†mhc se s‘gkr-ish me apodotikÏterec
+ []
 
-[69]
-
-[70
+[58] [59]) [60] [61
 
 
 
 ]
-
-[71]
-
-[72]
 \openout2 = `body_matter/chap7.aux'.
 
  (./body_matter/chap7.tex
 \textKappa \textepsilon \textphi \acctonos \textalpha \textlambda \textalpha \textiota \textomicron  7.
 
-
-[73
-
-
-]
-
-[74])
-Overfull \hbox (0.74231pt too wide) in paragraph at lines 104--288
-[] []\LGR/mak/b/n/10.95 Po-lu-tro-pi-k† kai po-lu--er-ga-sia-k† mo-nte-lo-po-–h-sh.[] \LGR/mak/m/n/10.95 Pi-ja-nËc e-pe-ktàseic pe-ri-lam-bànoun
+Overfull \hbox (9.76434pt too wide) in paragraph at lines 25--29
+[]\LGR/mak/m/n/10.95 To \T1/mak/m/n/10.95 Swi-n-UNETR \LGR/mak/m/n/10.95 apotËlese to pi-o an-tag-wnis-tikÏ \T1/mak/m/n/10.95 Transformer\LGR/mak/m/n/10.95 -basismËno mon-tË-lo. ParÏti
  []
 
+[62
 
-
-[75]
-
-[76
-
-
-
-] (./main.bbl
-Missing character: There is no v in font gk7t!
-
-
-[77
 
 ]
+Overfull \hbox (17.3478pt too wide) in paragraph at lines 56--60
+[] []\LGR/mak/b/n/10.95 K-linik† sunàfeia kai prak-tik† ax-iopo–hsh.[] \LGR/mak/m/n/10.95 Ta apotelËs-ma-ta u-p-osthr–-zoun Ïti s‘gqronec
+ []
 
-[78]
+[63]) [64] (./main.bbl [65
 
-[79]
 
-[80])
 
-[81] (./main.aux (./front_matter/abstract.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
+
+] [66] [67] [68]) [69] (./main.aux (./front_matter/abstract_gr.aux) (./front_matter/abstract_en.aux) (./front_matter/acknowledgements.aux) (./front_matter/preface.aux) (./body_matter/intro.aux) (./body_matter/chap2.aux) (./body_matter/chap3.aux) (./body_matter/chap4.aux) (./body_matter/chap5.aux) (./body_matter/chap6.aux) (./body_matter/chap7.aux))
  ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
  ***********
 
 
@@ -2160,24 +2309,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31881 strings out of 473190
- 588368 string characters out of 5704335
- 950328 words of memory out of 5000000
- 54181 multiletter control sequences out of 15000+600000
- 635090 words of font info for 188 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 99i,13n,107p,1561b,956s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 32014 strings out of 469519
+ 583803 string characters out of 5468896
+ 962605 words of memory out of 5000000
+ 59726 multiletter control sequences out of 15000+600000
+ 703974 words of font info for 192 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 101i,13n,120p,1561b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-</opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></opt/homebrew/Cellar/texlive/20250308_2/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (87 pages, 4188683 bytes).
+ </Users/gregtsen/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/kerkis/Kerkis-Bold.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/kerkis/Kerkis-Italic.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/kerkis/Kerkis-SmallCaps.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/kerkis/Kerkis.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/txfonts/txex.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></Users/gregtsen/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on main.pdf (69 pages, 4180892 bytes).
 PDF statistics:
- 1304 PDF objects out of 1440 (max. 8388607)
- 1122 compressed objects within 12 object streams
- 264 named destinations out of 1000 (max. 500000)
+ 1254 PDF objects out of 1440 (max. 8388607)
+ 1088 compressed objects within 11 object streams
+ 252 named destinations out of 1000 (max. 500000)
  841 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,7 @@
 \usepackage[greek,english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[LGR,T1]{fontenc}
+\usepackage{textalpha}
 % shortcuts for latin and greek text
 	\newcommand{\tl}[1]{\textlatin{#1}}
 	\newcommand{\tg}[1]{\textgreek{#1}}
@@ -458,25 +459,12 @@
         \begin{flushleft}
             \normalsize
             \begin{tabbing}
-                \ifx\@cosupervisor\@empty
-                    \large \textcolor{\colouredtextcolor}%
-                        {\textbf{\@supervisorMaleFemale :}} \=\kill
-                \else
-                    \large \textcolor{\colouredtextcolor}%
-                        {\textbf{\@cosupervisorMaleFemale :}} \=\kill
-                \fi
+                \large \textcolor{\colouredtextcolor}%
+                    {\textbf{\@supervisorMaleFemale :}} \=\kill
                 \large \textcolor{\colouredtextcolor}%
                     {\textbf{\@supervisorMaleFemale :}} \>\@supervisor\\
                     \>\@supervisorTitle
-                    \ifx\@cosupervisor\@empty
-                        % do nothing
-												\\
-                    \else
-                        \\[0.5\baselineskip]
-                        \large \textcolor{\colouredtextcolor}%
-                            {\textbf{\@cosupervisorMaleFemale :}} \>\@cosupervisor\\
-                        \>\@cosupervisorTitle
-                    \fi
+                    \\
             \end{tabbing}
         \end{flushleft}
         \vspace{0.2cm}
@@ -547,24 +535,11 @@
                 \vfill
                 %
                 \begin{tabbing}
-                    \ifx\@cosupervisor\@empty
-                        \large \textcolor{\colouredtextcolor}%
-                            {\textbf{\@supervisorMaleFemale :}} \=\kill
-                    \else
-                        \large \textcolor{\colouredtextcolor}%
-                            {\textbf{\@cosupervisorMaleFemale :}} \=\kill
-                    \fi
+                    \large \textcolor{\colouredtextcolor}%
+                        {\textbf{\@supervisorMaleFemale :}} \=\kill
                     \large \textcolor{\colouredtextcolor}%
                     {\textbf{\@supervisorMaleFemale :}} \>\@supervisor\\
                     \>\@supervisorTitle
-                    \ifx\@cosupervisor\@empty
-                        % do nothing
-                    \else
-                        \\[0.5\baselineskip]
-                        \large \textcolor{\colouredtextcolor}%
-                            {\textbf{\@cosupervisorMaleFemale :}} \>\@cosupervisor\\
-                        \>\@cosupervisorTitle
-                    \fi
                 \end{tabbing}
                 \vspace{5mm}
                 \vfill
@@ -575,8 +550,7 @@
             %
             \fi
             \new@tpage
-            \cleardoublepage
-            \if@twoside\new@tpage
+            \if@twoside
 		\ifnewlogooption
             		\vspace{-1cm}
 		\fi
@@ -957,7 +931,8 @@
 	Διπλωματούχος Ηλεκτρολόγος Μηχανικός και Μηχανικός Υπολογιστών Ε.Μ.Π.
 	\\
 	\\
-  \textcolor{\colouredtextcolor}{\en{Copyright} \en{\copyright }} Γρηγόριος Τσένος, 2026.\\ %
+  \textcolor{\colouredtextcolor}{\en{Copyright} \en{\copyright }} Γρηγόριος Τσένος, 2026.\\
+  Με επιφύλαξη παντός δικαιώματος. \en{All rights reserved.}\\ %
 	% \ifx\@authorNameGR\@empty
 	% \else
   %       \@authorNameGR,

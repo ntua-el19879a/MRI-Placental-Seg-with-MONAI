@@ -1,164 +1,287 @@
 \babel@toc {greek}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {chapter}{Περίληψη}{1}{chapter*.1}%
-\contentsline {chapter}{\foreignlanguage {english}{Abstract}}{3}{chapter*.2}%
 \addvspace {1em}
-\contentsline {chapter}{Ευχαριστίες}{7}{chapter*.3}%
-\contentsline {chapter}{Πρόλογος}{19}{chapter*.8}%
-\contentsline {chapter}{\numberline {1}Εισαγωγή}{21}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Συνοπτική Εισαγωγή}{21}{section.1.1}%
+\contentsline {chapter}{Περίληψη}{7}{chapter*.1}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {1.2}Αντικείμενο της διπλωματικής}{22}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Οργάνωση του τόμου}{22}{section.1.3}%
-\contentsline {part}{\EnsureStandardFontEncoding {I}\hspace {1em}Θεωρητικό Μέρος}{25}{section*.9}%
-\contentsline {chapter}{\numberline {2}Τμηματοποίηση Ιατρικών Εικόνων και Μαγνητική Τομογραφία}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Ο πλακούντας: ανατομία, ανάπτυξη και λειτουργίες}{27}{section.2.1}%
+\contentsline {chapter}{\foreignlanguage {english}{Abstract}}{9}{chapter*.2}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {2.2}Η τμηματοποίηση ως υπολογιστικό πρόβλημα}{28}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Ιδιαιτερότητες τμηματοποίησης πλακούντα σε \foreignlanguage {english}{MRI}}{29}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Μαγνητική Τομογραφία \foreignlanguage {english}{MRI}}{29}{section.2.4}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Ανομοιογένεια έντασης και διόρθωση \foreignlanguage {english}{bias field}}{30}{subsection.2.4.1}%
-\contentsline {section}{\numberline {2.5}Συνήθη βήματα προεπεξεργασίας για τμηματοποίηση \foreignlanguage {english}{MRI}}{30}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Μετρικές αξιολόγησης τμηματοποίησης}{31}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Συντελεστής \foreignlanguage {english}{Dice} (\foreignlanguage {english}{DSC})}{31}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}\foreignlanguage {english}{Intersection over Union} (\foreignlanguage {english}{IoU}/\foreignlanguage {english}{Jaccard})}{31}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}Σύνοψη}{31}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Μηχανική Μάθηση και Σύγχρονα Μοντέλα για Τμηματοποίηση}{33}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Επιβλεπόμενη μάθηση για τμηματοποίηση}{33}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Συνελικτικά Νευρωνικά Δίκτυα (\foreignlanguage {english}{CNNs})}{33}{section.3.2}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Η συνέλιξη σε \foreignlanguage {english}{2D/3D} δεδομένα και η έννοια του \foreignlanguage {english}{receptive field}}{34}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Αρχιτεκτονικές πυκνής πρόβλεψης: \foreignlanguage {english}{FCN}, \foreignlanguage {english}{encoder--decoder} και \foreignlanguage {english}{U-shaped} σχεδίαση}{34}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Κανονικοποίηση και σταθεροποίηση εκπαίδευσης}{34}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Προσοχή και \foreignlanguage {english}{CNNs}: \foreignlanguage {english}{Attention U-Net}}{35}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Πλεονεκτήματα και περιορισμοί των \foreignlanguage {english}{CNNs}}{35}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Μοντέλα \foreignlanguage {english}{Attention} και \foreignlanguage {english}{Transformers}}{35}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Βασικός μηχανισμός \foreignlanguage {english}{self-attention}}{35}{subsection.3.3.1}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {subsection}{\numberline {3.3.2}\foreignlanguage {english}{Self-Attention} και Εικόνες: προκλήσεις και λύσεις}{36}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Μείωση κόστους: ιεραρχία, τοπικά παράθυρα και προσεγγίσεις γραμμικής προσοχής}{36}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Υβριδικά \foreignlanguage {english}{Transformer}--\foreignlanguage {english}{U-shape} μοντέλα}{36}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Μοντέλα Χώρου Καταστάσεων (\foreignlanguage {english}{State Space Models}) και \foreignlanguage {english}{Mamba}}{36}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Δομημένα Μοντέλα Χώρου Καταστάσεων (\foreignlanguage {english}{Structured SSMs}) και Μοντελοποίηση Μακρινών Εξαρτήσεων}{37}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}\foreignlanguage {english}{Mamba}: Επιλεκτικά Μοντέλα Χώρου Καταστάσεων και Γραμμική Κλιμάκωση}{37}{subsection.3.4.2}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Εφαρμογή \foreignlanguage {english}{SSMs/Mamba} σε \foreignlanguage {english}{3D} Τμηματοποίηση}{38}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Συγκριτική Επισκόπηση}{38}{subsection.3.4.4}%
-\contentsline {section}{\numberline {3.5}Βελτιστοποίηση και πρακτικές εκπαίδευσης}{38}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Αρχιτεκτονικές Τμηματοποίησης που Χρησιμοποιήθηκαν}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Το πλαίσιο \foreignlanguage {english}{MONAI}}{41}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Υλοποίηση μοντέλων στην παρούσα εργασία}{41}{subsection.4.1.1}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {4.2}Οικογένειες μοντέλων που συγκρίνονται}{42}{section.4.2}%
-\contentsline {section}{\numberline {4.3}\foreignlanguage {english}{UNet} και \foreignlanguage {english}{3D U-Net}}{42}{section.4.3}%
-\contentsline {paragraph}{Σχόλιο.}{43}{figure.caption.11}%
-\contentsline {section}{\numberline {4.4}\foreignlanguage {english}{DynUNet}}{43}{section.4.4}%
-\contentsline {paragraph}{Κεντρική ιδέα.}{43}{section.4.4}%
-\contentsline {section}{\numberline {4.5}\foreignlanguage {english}{SegResNet}: υπολειμματικό \foreignlanguage {english}{encoder-decoder}}{43}{section.4.5}%
-\contentsline {paragraph}{Γιατί υπολείμματα.}{43}{figure.caption.12}%
-\contentsline {section}{\numberline {4.6}\foreignlanguage {english}{AttentionUnet}: προσοχή στις \foreignlanguage {english}{skip connections}}{43}{section.4.6}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {paragraph}{Πότε βοηθά.}{44}{figure.caption.13}%
-\contentsline {section}{\numberline {4.7}\foreignlanguage {english}{UNETR}: \foreignlanguage {english}{ViT encoder} με \foreignlanguage {english}{U-shaped decoder}}{44}{section.4.7}%
-\contentsline {paragraph}{Σχόλιο κόστους.}{44}{section.4.7}%
-\contentsline {section}{\numberline {4.8}\foreignlanguage {english}{SwinUNETR}: ιεραρχικός \foreignlanguage {english}{Swin encoder}}{44}{section.4.8}%
-\contentsline {paragraph}{Ιεραρχία έναντι \foreignlanguage {english}{ViT}.}{44}{section.4.8}%
-\contentsline {paragraph}{Γιατί ταιριάζει σε \foreignlanguage {english}{3D}.}{45}{figure.caption.14}%
-\contentsline {section}{\numberline {4.9}\foreignlanguage {english}{SegMamba}: \foreignlanguage {english}{Mamba/SSM blocks} σε \foreignlanguage {english}{U-shape} σχεδίαση}{45}{section.4.9}%
-\contentsline {paragraph}{Σημείωση υλοποίησης.}{45}{section.4.9}%
-\contentsline {paragraph}{Αναμενόμενη συμπεριφορά.}{45}{section.4.9}%
-\contentsline {section}{\numberline {4.10}Συζήτηση: αναμενόμενοι συμβιβασμοί}{45}{section.4.10}%
-\contentsline {part}{\EnsureStandardFontEncoding {II}\hspace {1em}Πρακτικό Μέρος}{47}{section*.15}%
-\contentsline {chapter}{\numberline {5}Πειραματικό Πρωτόκολλο και Μεθοδολογία Αξιολόγησης}{49}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Στόχοι αξιολόγησης και αρχές σύγκρισης}{49}{section.5.1}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.2}Υλοποίηση και λογισμικό}{50}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Σύνολο δεδομένων και διαχωρισμός}{50}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Οργάνωση δεδομένων και ροή φόρτωσης}{50}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Ανάλυση στοίβας προεπεξεργασίας}{51}{section.5.5}%
-\contentsline {subsection}{\numberline {5.5.1}Γεωμετρική εναρμόνιση και σταθεροποίηση εισόδου}{51}{subsection.5.5.1}%
-\contentsline {subsection}{\numberline {5.5.2}Κανονικοποίηση εντάσεων}{51}{subsection.5.5.2}%
-\contentsline {subsection}{\numberline {5.5.3}Περιορισμός πεδίου (\foreignlanguage {english}{ROI}) με \foreignlanguage {english}{foreground cropping}}{51}{subsection.5.5.3}%
-\contentsline {subsection}{\numberline {5.5.4}Σταθεροποίηση διαστάσεων για συμβατότητα μοντέλων}{51}{subsection.5.5.4}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.6}Δειγματοληψία \foreignlanguage {english}{patches} και επαύξηση δεδομένων}{52}{section.5.6}%
-\contentsline {section}{\numberline {5.7}Αρχιτεκτονικές και πειραματικά σενάρια}{52}{section.5.7}%
-\contentsline {paragraph}{Οικογένειες μοντέλων.}{52}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Αρχιτεκτονικές υπερπαράμετροι ανά μοντέλο}{52}{subsection.5.7.1}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {5.8}Συνάρτηση κόστους και βελτιστοποίηση}{54}{section.5.8}%
-\contentsline {subsection}{\numberline {5.8.1}Κριτήριο εκπαίδευσης}{54}{subsection.5.8.1}%
-\contentsline {section}{\numberline {5.9}Επικύρωση και διαδικασία \foreignlanguage {english}{inference}}{54}{section.5.9}%
-\contentsline {subsection}{\numberline {5.9.1}\foreignlanguage {english}{Sliding Window Inference (SWI)}}{54}{subsection.5.9.1}%
-\contentsline {subsection}{\numberline {5.9.2}\foreignlanguage {english}{EMA (Exponential Moving Average)}}{54}{subsection.5.9.2}%
-\contentsline {section}{\numberline {5.10}Βελτιστοποίηση και \foreignlanguage {english}{Scheduler}}{54}{section.5.10}%
-\contentsline {subsection}{\numberline {5.10.1}\foreignlanguage {english}{Optimizer}}{54}{subsection.5.10.1}%
-\contentsline {subsection}{\numberline {5.10.2}\foreignlanguage {english}{Scheduler}}{54}{subsection.5.10.2}%
-\contentsline {chapter}{\numberline {6}Αποτελέσματα Πειραματικής Αξιολόγησης}{57}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Παρουσίαση αποτελεσμάτων}{57}{section.6.1}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.2}Συνοπτική κατάταξη και κύρια ευρήματα}{58}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Καμπύλες εκπαίδευσης και σταθερότητα σύγκλισης}{59}{section.6.3}%
-\contentsline {paragraph}{Γενική εικόνα σύγκλισης.}{59}{section.6.3}%
-\contentsline {paragraph}{Συγκριτική ερμηνεία καμπυλών.}{59}{figure.caption.19}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {paragraph}{\foreignlanguage {english}{Transformer-based} συμπεριφορά.}{61}{figure.caption.19}%
-\contentsline {paragraph}{Σταθερότητα και γενίκευση.}{61}{figure.caption.19}%
-\contentsline {paragraph}{Σύνδεση με ποιοτική αξιολόγηση.}{61}{figure.caption.19}%
-\contentsline {section}{\numberline {6.4}Ποιοτική αξιολόγηση προβλέψεων}{61}{section.6.4}%
-\contentsline {paragraph}{Συμφωνία ποιοτικών και ποσοτικών αποτελεσμάτων.}{61}{section.6.4}%
-\babel@toc {greek}{}\relax 
-\babel@toc {greek}{}\relax 
-\contentsline {paragraph}{\foreignlanguage {english}{CNN-based} μοντέλα.}{62}{section.6.4}%
-\contentsline {paragraph}{\foreignlanguage {english}{Transformer-based} μοντέλα.}{62}{section.6.4}%
-\contentsline {paragraph}{Μοντέλα κορυφής: \foreignlanguage {english}{SegResNet} και \foreignlanguage {english}{SegMamba}.}{62}{section.6.4}%
-\contentsline {paragraph}{Περιορισμοί της οπτικής σύγκρισης.}{62}{section.6.4}%
+\contentsline {chapter}{Ευχαριστίες}{11}{chapter*.3}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {section}{\numberline {6.5}Σύγκριση με δημοσιευμένα αποτελέσματα}{66}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Συζήτηση και ερμηνεία}{66}{section.6.6}%
-\contentsline {paragraph}{Σύνοψη επιδόσεων και κλίμακα διαφορών.}{66}{section.6.6}%
-\contentsline {paragraph}{Ερμηνεία υπεροχής \foreignlanguage {english}{CNN}/\foreignlanguage {english}{SSM} προσεγγίσεων.}{67}{section.6.6}%
-\contentsline {paragraph}{Σχόλια για \foreignlanguage {english}{Transformer} μοντέλα: \foreignlanguage {english}{UNETR} έναντι \foreignlanguage {english}{SwinUNETR}.}{67}{section.6.6}%
-\contentsline {paragraph}{Σχέση \foreignlanguage {english}{Dice/IoU} και \foreignlanguage {english}{validation loss}.}{67}{section.6.6}%
-\contentsline {paragraph}{Ακρίβεια έναντι υπολογιστικού κόστους.}{67}{section.6.6}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {subsection}{\numberline {6.6.1}Ενδεικτικοί χρόνοι ολοκλήρωσης εκτέλεσης \foreignlanguage {english}{notebooks}}{68}{subsection.6.6.1}%
-\contentsline {paragraph}{Περιορισμοί και παράγοντες γενίκευσης.}{68}{table.caption.31}%
-\contentsline {paragraph}{Σύνοψη ενότητας.}{69}{table.caption.31}%
-\contentsline {part}{\EnsureStandardFontEncoding {III}\hspace {1em}Επίλογος}{71}{section*.32}%
-\contentsline {chapter}{\numberline {7}Επίλογος}{73}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Συμπεράσματα}{73}{section.7.1}%
-\contentsline {paragraph}{Μεθοδολογική σύνοψη.}{73}{section.7.1}%
-\contentsline {paragraph}{Συγκριτική αξιολόγηση μοντέλων.}{73}{section.7.1}%
-\contentsline {paragraph}{Συνέπεια ποσοτικής και ποιοτικής ανάλυσης.}{73}{section.7.1}%
 \babel@toc {greek}{}\relax 
 \babel@toc {greek}{}\relax 
-\contentsline {paragraph}{Σύνδεση με τη βιβλιογραφία.}{74}{section.7.1}%
-\contentsline {paragraph}{Κλινική συνάφεια και πρακτική αξιοποίηση.}{74}{section.7.1}%
-\contentsline {paragraph}{Περιορισμοί εγκυρότητας.}{74}{section.7.1}%
-\contentsline {paragraph}{Τελική αποτίμηση.}{74}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Μελλοντικές επεκτάσεις}{74}{section.7.2}%
-\contentsline {paragraph}{Επέκταση με \foreignlanguage {english}{fine-tuning} από υπάρχοντα \foreignlanguage {english}{checkpoints}.}{74}{section.7.2}%
-\contentsline {paragraph}{Πολυτροπική και πολυ-εργασιακή μοντελοποίηση.}{75}{section.7.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{Πρόλογος}{18}{chapter*.7}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {1}Εισαγωγή}{19}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Συνοπτική Εισαγωγή}{19}{section.1.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {1.2}Αντικείμενο της διπλωματικής}{20}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Οργάνωση του τόμου}{20}{section.1.3}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {part}{\EnsureStandardFontEncoding {I}\hspace {1em}Θεωρητικό Μέρος}{22}{section*.8}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {2}Τμηματοποίηση Ιατρικών Εικόνων και Μαγνητική Τομογραφία}{23}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Ο πλακούντας: ανατομία, ανάπτυξη και λειτουργίες}{23}{section.2.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {2.2}Η τμηματοποίηση ως υπολογιστικό πρόβλημα}{24}{section.2.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {2.3}Ιδιαιτερότητες τμηματοποίησης πλακούντα σε \foreignlanguage {english}{MRI}}{25}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Μαγνητική Τομογραφία \foreignlanguage {english}{MRI}}{25}{section.2.4}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Ανομοιογένεια έντασης και διόρθωση \foreignlanguage {english}{bias field}}{26}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Συνήθη βήματα προεπεξεργασίας για τμηματοποίηση \foreignlanguage {english}{MRI}}{26}{section.2.5}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {2.6}Μετρικές αξιολόγησης τμηματοποίησης}{27}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Συντελεστής \foreignlanguage {english}{Dice} (\foreignlanguage {english}{DSC})}{27}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}\foreignlanguage {english}{Intersection over Union} (\foreignlanguage {english}{IoU}/\foreignlanguage {english}{Jaccard})}{27}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Σύνοψη}{27}{section.2.7}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {3}Μηχανική Μάθηση και Σύγχρονες Αρχιτεκτονικές Τμηματοποίησης}{28}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Επιβλεπόμενη μάθηση για τμηματοποίηση}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Συνελικτικά Νευρωνικά Δίκτυα (\foreignlanguage {english}{CNNs})}{28}{section.3.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {3.2.1}Η συνέλιξη σε \foreignlanguage {english}{2D/3D} δεδομένα και η έννοια του \foreignlanguage {english}{receptive field}}{29}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Αρχιτεκτονικές πυκνής πρόβλεψης: \foreignlanguage {english}{FCN}, \foreignlanguage {english}{encoder--decoder} και \foreignlanguage {english}{U-shaped} σχεδίαση}{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Κανονικοποίηση και σταθεροποίηση εκπαίδευσης}{29}{subsection.3.2.3}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Προσοχή και \foreignlanguage {english}{CNNs}: \foreignlanguage {english}{Attention U-Net}}{30}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Πλεονεκτήματα και περιορισμοί των \foreignlanguage {english}{CNNs}}{30}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Μοντέλα \foreignlanguage {english}{Attention} και \foreignlanguage {english}{Transformers}}{30}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Βασικός μηχανισμός \foreignlanguage {english}{self-attention}}{30}{subsection.3.3.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {3.3.2}\foreignlanguage {english}{Self-Attention} και Εικόνες: προκλήσεις και λύσεις}{31}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Μείωση κόστους: ιεραρχία, τοπικά παράθυρα και προσεγγίσεις γραμμικής προσοχής}{31}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Υβριδικά \foreignlanguage {english}{Transformer}--\foreignlanguage {english}{U-shape} μοντέλα}{31}{subsection.3.3.4}%
+\contentsline {section}{\numberline {3.4}Μοντέλα Χώρου Καταστάσεων (\foreignlanguage {english}{State Space Models}) και \foreignlanguage {english}{Mamba}}{31}{section.3.4}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Δομημένα Μοντέλα Χώρου Καταστάσεων (\foreignlanguage {english}{Structured SSMs}) και Μοντελοποίηση Μακρινών Εξαρτήσεων}{32}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}\foreignlanguage {english}{Mamba}: Επιλεκτικά Μοντέλα Χώρου Καταστάσεων και Γραμμική Κλιμάκωση}{32}{subsection.3.4.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Εφαρμογή \foreignlanguage {english}{SSMs/Mamba} σε \foreignlanguage {english}{3D} Τμηματοποίηση}{33}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Συγκριτική Επισκόπηση}{33}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Βελτιστοποίηση και πρακτικές εκπαίδευσης}{33}{section.3.5}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {4}Αρχιτεκτονικές Τμηματοποίησης}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Το πλαίσιο \foreignlanguage {english}{MONAI}}{35}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Υλοποίηση μοντέλων στην παρούσα εργασία}{35}{subsection.4.1.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {4.2}Οικογένειες μοντέλων που συγκρίνονται}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}\foreignlanguage {english}{UNet} και \foreignlanguage {english}{3D U-Net}}{36}{section.4.3}%
+\contentsline {paragraph}{Σχόλιο.}{36}{illustration.caption.10}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {4.4}\foreignlanguage {english}{DynUNet}}{37}{section.4.4}%
+\contentsline {paragraph}{Κεντρική ιδέα.}{37}{section.4.4}%
+\contentsline {section}{\numberline {4.5}\foreignlanguage {english}{SegResNet}: υπολειμματικό \foreignlanguage {english}{encoder-decoder}}{37}{section.4.5}%
+\contentsline {paragraph}{Γιατί υπολείμματα.}{37}{illustration.caption.11}%
+\contentsline {section}{\numberline {4.6}\foreignlanguage {english}{AttentionUnet}: προσοχή στις \foreignlanguage {english}{skip connections}}{37}{section.4.6}%
+\contentsline {paragraph}{Πότε βοηθά.}{37}{illustration.caption.12}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {4.7}\foreignlanguage {english}{UNETR}: \foreignlanguage {english}{ViT encoder} με \foreignlanguage {english}{U-shaped decoder}}{38}{section.4.7}%
+\contentsline {paragraph}{Σχόλιο κόστους.}{38}{section.4.7}%
+\contentsline {section}{\numberline {4.8}\foreignlanguage {english}{SwinUNETR}: ιεραρχικός \foreignlanguage {english}{Swin encoder}}{38}{section.4.8}%
+\contentsline {paragraph}{Ιεραρχία έναντι \foreignlanguage {english}{ViT}.}{38}{section.4.8}%
+\contentsline {paragraph}{Γιατί ταιριάζει σε \foreignlanguage {english}{3D}.}{38}{illustration.caption.13}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {4.9}\foreignlanguage {english}{SegMamba}: \foreignlanguage {english}{Mamba/SSM blocks} σε \foreignlanguage {english}{U-shape} σχεδίαση}{39}{section.4.9}%
+\contentsline {paragraph}{Σημείωση υλοποίησης.}{39}{section.4.9}%
+\contentsline {paragraph}{Αναμενόμενη συμπεριφορά.}{39}{section.4.9}%
+\contentsline {section}{\numberline {4.10} Συζήτηση: αναμενόμενοι συμβιβασμοί}{39}{section.4.10}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {part}{\EnsureStandardFontEncoding {II}\hspace {1em}Πρακτικό Μέρος}{40}{section*.14}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {5}Πειραματικό Πρωτόκολλο και Μεθοδολογία Αξιο\-λόγησης}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Στόχοι αξιολόγησης και αρχές σύγκρισης}{41}{section.5.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {5.2}Υλοποίηση και λογισμικό}{42}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Σύνολο δεδομένων και διαχωρισμός}{42}{section.5.3}%
+\contentsline {paragraph}{Προέλευση δεδομένων και καθεστώς διάθεσης.}{42}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Οργάνωση δεδομένων και ροή φόρτωσης}{42}{section.5.4}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {5.5}Ανάλυση στοίβας προεπεξεργασίας}{43}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Γεωμετρική εναρμόνιση και σταθεροποίηση εισόδου}{43}{subsection.5.5.1}%
+\contentsline {subsection}{\numberline {5.5.2}Κανονικοποίηση εντάσεων}{43}{subsection.5.5.2}%
+\contentsline {subsection}{\numberline {5.5.3}Περιορισμός πεδίου (\foreignlanguage {english}{ROI}) με \foreignlanguage {english}{foreground cropping}}{43}{subsection.5.5.3}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {5.5.4}Σταθεροποίηση διαστάσεων για συμβατότητα μοντέλων}{44}{subsection.5.5.4}%
+\contentsline {section}{\numberline {5.6}Δειγματοληψία \foreignlanguage {english}{patches} και επαύξηση δεδομένων}{44}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Αρχιτεκτονικές και πειραματικά σενάρια}{44}{section.5.7}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Οικογένειες μοντέλων.}{45}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Αρχιτεκτονικές υπερπαράμετροι ανά μοντέλο}{45}{subsection.5.7.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {5.8}Συνάρτηση κόστους και βελτιστοποίηση}{46}{section.5.8}%
+\contentsline {subsection}{\numberline {5.8.1}Κριτήριο εκπαίδευσης}{46}{subsection.5.8.1}%
+\contentsline {section}{\numberline {5.9}Επικύρωση και διαδικασία \foreignlanguage {english}{inference}}{46}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}\foreignlanguage {english}{Sliding Window Inference (SWI)}}{46}{subsection.5.9.1}%
+\contentsline {subsection}{\numberline {5.9.2}\foreignlanguage {english}{EMA (Exponential Moving Average)}}{46}{subsection.5.9.2}%
+\contentsline {section}{\numberline {5.10}Βελτιστοποίηση και \foreignlanguage {english}{Scheduler}}{46}{section.5.10}%
+\contentsline {subsection}{\numberline {5.10.1}Βελτιστοποιητής}{46}{subsection.5.10.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {5.10.2} \foreignlanguage {english}{Scheduler}}{47}{subsection.5.10.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {6}Αποτελέσματα Πειραματικής Αξιολόγησης}{48}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Παρουσίαση αποτελεσμάτων}{48}{section.6.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {6.2}Συνοπτική κατάταξη και κύρια ευρήματα}{49}{section.6.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {6.3}Καμπύλες εκπαίδευσης και σταθερότητα σύγκλισης}{50}{section.6.3}%
+\contentsline {paragraph}{Γενική εικόνα σύγκλισης.}{50}{section.6.3}%
+\contentsline {paragraph}{Συγκριτική ερμηνεία καμπυλών.}{50}{illustration.caption.18}%
+\contentsline {paragraph}{\foreignlanguage {english}{Transformer-based} συμπεριφορά.}{50}{illustration.caption.18}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Σταθερότητα και γενίκευση.}{52}{illustration.caption.18}%
+\contentsline {paragraph}{Σύνδεση με ποιοτική αξιολόγηση.}{52}{illustration.caption.18}%
+\contentsline {section}{\numberline {6.4}Ποιοτική αξιολόγηση προβλέψεων}{52}{section.6.4}%
+\contentsline {paragraph}{Συμφωνία ποιοτικών και ποσοτικών αποτελεσμάτων.}{52}{section.6.4}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{\foreignlanguage {english}{CNN-based} μοντέλα.}{53}{section.6.4}%
+\contentsline {paragraph}{\foreignlanguage {english}{Transformer-based} μοντέλα.}{53}{section.6.4}%
+\contentsline {paragraph}{Μοντέλα κορυφής: \foreignlanguage {english}{SegResNet} και \foreignlanguage {english}{SegMamba}.}{53}{section.6.4}%
+\contentsline {paragraph}{Περιορισμοί της οπτικής σύγκρισης.}{53}{section.6.4}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {section}{\numberline {6.5}Σύγκριση με δημοσιευμένα αποτελέσματα}{57}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Συζήτηση και ερμηνεία}{57}{section.6.6}%
+\contentsline {paragraph}{Σύνοψη επιδόσεων και κλίμακα διαφορών.}{57}{section.6.6}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Σχολιασμός χειρότερης απόδοσης.}{58}{section.6.6}%
+\contentsline {paragraph}{Ερμηνεία υπεροχής \foreignlanguage {english}{CNN}/\foreignlanguage {english}{SSM} προσεγγίσεων.}{58}{section.6.6}%
+\contentsline {paragraph}{Σχόλια για \foreignlanguage {english}{Transformer} μοντέλα: \foreignlanguage {english}{UNETR} έναντι \foreignlanguage {english}{SwinUNETR}.}{58}{section.6.6}%
+\contentsline {paragraph}{Σχέση \foreignlanguage {english}{Dice/IoU} και \foreignlanguage {english}{validation loss}.}{58}{section.6.6}%
+\contentsline {paragraph}{Ακρίβεια έναντι υπολογιστικού κόστους.}{58}{section.6.6}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {subsection}{\numberline {6.6.1}Ενδεικτικοί χρόνοι ολοκλήρωσης εκτέλεσης πειραμάτων}{59}{subsection.6.6.1}%
+\contentsline {paragraph}{Περιορισμοί και παράγοντες γενίκευσης.}{59}{table.caption.30}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Σύνοψη ενότητας.}{60}{table.caption.30}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {part}{\EnsureStandardFontEncoding {III}\hspace {1em}Επίλογος}{61}{section*.31}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {chapter}{\numberline {7}Επίλογος}{62}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Συμπεράσματα}{62}{section.7.1}%
+\contentsline {paragraph}{Μεθοδολογική σύνοψη.}{62}{section.7.1}%
+\contentsline {paragraph}{Συγκριτική αξιολόγηση μοντέλων.}{62}{section.7.1}%
+\contentsline {paragraph}{Παρουσίαση \foreignlanguage {english}{worst-case scenario}.}{62}{section.7.1}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Συνέπεια ποσοτικής και ποιοτικής ανάλυσης.}{63}{section.7.1}%
+\contentsline {paragraph}{Σύνδεση με τη βιβλιογραφία.}{63}{section.7.1}%
+\contentsline {paragraph}{Κλινική συνάφεια και πρακτική αξιοποίηση.}{63}{section.7.1}%
+\contentsline {paragraph}{Περιορισμοί εγκυρότητας.}{63}{section.7.1}%
+\contentsline {paragraph}{Τελική αποτίμηση.}{63}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Μελλοντικές επεκτάσεις}{63}{section.7.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\contentsline {paragraph}{Επέκταση με \foreignlanguage {english}{fine-tuning} από υπάρχοντα \foreignlanguage {english}{checkpoints}.}{64}{section.7.2}%
+\contentsline {paragraph}{Πολυτροπική και πολυ-εργασιακή μοντελοποίηση.}{64}{section.7.2}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
 \vspace \bigskipamount 
-\contentsline {chapter}{Βιβλιογραφία}{81}{chapter*.33}%
-\contentsline {subparagraph}{}{81}{chapter*.33}%
+\contentsline {chapter}{Βιβλιογραφία}{69}{chapter*.32}%
+\contentsline {subparagraph}{}{69}{chapter*.32}%
+\babel@toc {greek}{}\relax 
+\babel@toc {greek}{}\relax 
